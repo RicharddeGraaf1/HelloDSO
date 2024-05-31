@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ow-dc:owBestand xsi:schemaLocation="http://www.geostandaarden.nl/imow/bestanden/deelbestand https://register.geostandaarden.nl/xmlschema/tpod/v2.0.0/bestanden-ow/deelbestand-ow/IMOW_Deelbestand.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:da="http://www.geostandaarden.nl/imow/datatypenalgemeen" xmlns:sl="http://www.geostandaarden.nl/bestanden-ow/standlevering-generiek" xmlns:ow-dc="http://www.geostandaarden.nl/imow/bestanden/deelbestand" xmlns:rol="http://www.geostandaarden.nl/imow/regelsoplocatie" xmlns:l="http://www.geostandaarden.nl/imow/locatie" xmlns:rkow="http://www.geostandaarden.nl/imow/regeltekstkoppelingow/" xmlns:r="http://www.geostandaarden.nl/imow/regels" xmlns:ow="http://www.geostandaarden.nl/imow/owobject">
+    <sl:standBestand>
+        <sl:dataset>HelloDSOData</sl:dataset>
+        <sl:inhoud>
+            <sl:gebied>Amsterdam</sl:gebied>
+            <sl:leveringsId>HelloDSO_Inititeel_001</sl:leveringsId>
+            <sl:objectTypen>
+                <sl:objectType>Omgevingsnorm</sl:objectType>
+            </sl:objectTypen>
+        </sl:inhoud>
+        <sl:stand>
+            <!-- uitbreiding bestaande normwaarde met vastgestelde locatie -->
+            <ow-dc:owObject>
+                <rol:Omgevingsnorm>
+                    <ow:procedurestatus>ontwerp</ow:procedurestatus>
+                    <rol:identificatie>nl.imow-gm0299.omgevingsnorm.Bouwhoogte</rol:identificatie>
+                    <rol:naam>Bouwhoogte</rol:naam>
+                    <rol:type>http://standaarden.omgevingswet.overheid.nl/typenorm/id/concept/MaximumBouwhoogte</rol:type>
+                    <rol:eenheid>http://standaarden.omgevingswet.overheid.nl/eenheid/id/concept/Meter</rol:eenheid>
+                    <rol:normwaarde>
+                        <rol:Normwaarde>
+                            <rol:identificatie>nl.imow-gm0299.normwaarde.10meter</rol:identificatie>
+                            <rol:kwantitatieveWaarde>10</rol:kwantitatieveWaarde>
+                            <rol:locatieaanduiding>
+                                <l:LocatieRef xlink:href="nl.imow-gm0299.gebied.BinnenstadWest"/>
+                            </rol:locatieaanduiding>
+                        </rol:Normwaarde>
+                        <rol:Normwaarde>
+                            <rol:identificatie>nl.imow-gm0299.normwaarde.7meter</rol:identificatie>
+                            <rol:kwantitatieveWaarde>7</rol:kwantitatieveWaarde>
+                            <rol:locatieaanduiding>
+                                <l:LocatieRef xlink:href="nl.imow-gm0299.gebied.Zuiderburen"/>
+                                <l:LocatieRef xlink:href="nl.imow-gm0299.gebied.Noordereilanden"/>
+                            </rol:locatieaanduiding>
+                        </rol:Normwaarde>
+                    </rol:normwaarde>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/omgevingsnorm/id/concept/Bouwaanduiding</rol:groep>
+                </rol:Omgevingsnorm>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <!-- nieuwe laagbouw omgevingsnorm en waarde voor nieuwe locatie-->
+            <ow-dc:owObject>
+                <rol:Omgevingsnorm>
+                    <ow:procedurestatus>ontwerp</ow:procedurestatus>
+                    <rol:identificatie>nl.imow-gm0299.omgevingsnorm.Laagbouwhoogte</rol:identificatie>
+                    <rol:naam>Laagbouwhoogte</rol:naam>
+                    <rol:type>http://standaarden.omgevingswet.overheid.nl/typenorm/id/concept/MaximumBouwhoogte</rol:type>
+                    <rol:eenheid>http://standaarden.omgevingswet.overheid.nl/eenheid/id/concept/Meter</rol:eenheid>
+                    <rol:normwaarde>
+                        <rol:Normwaarde>
+                            <rol:identificatie>nl.imow-gm0299.normwaarde.3meter</rol:identificatie>
+                            <rol:kwantitatieveWaarde>3</rol:kwantitatieveWaarde>
+                            <rol:locatieaanduiding>
+                                <l:LocatieRef xlink:href="nl.imow-gm0299.gebied.Zuidwesterburen"/>
+                            </rol:locatieaanduiding>
+                        </rol:Normwaarde>
+                    </rol:normwaarde>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/omgevingsnorm/id/concept/Bouwaanduiding</rol:groep>
+                </rol:Omgevingsnorm>
+            </ow-dc:owObject>
+        </sl:stand>
+    </sl:standBestand>
+</ow-dc:owBestand>
+
+        

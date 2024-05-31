@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<owBestand xmlns="http://www.geostandaarden.nl/imow/bestanden/deelbestand"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:l="http://www.geostandaarden.nl/imow/locatie"
+   xmlns:ga="http://www.geostandaarden.nl/imow/gebiedsaanwijzing"
+   xmlns:da="http://www.geostandaarden.nl/imow/datatypenalgemeen"
+   xmlns:sl="http://www.geostandaarden.nl/bestanden-ow/standlevering-generiek"  
+   xmlns:rol="http://www.geostandaarden.nl/imow/regelsoplocatie"
+   xmlns:r="http://www.geostandaarden.nl/imow/regels"
+   xmlns:ow="http://www.geostandaarden.nl/imow/owobject">
+   <sl:standBestand>
+      <sl:dataset>HelloDSOData</sl:dataset>
+      <sl:inhoud>
+         <sl:gebied>HelloDSO</sl:gebied>
+         <sl:leveringsId>HelloDSO_Ontwerp_001</sl:leveringsId>
+         <sl:objectTypen>
+            <sl:objectType>Activiteit</sl:objectType>
+         </sl:objectTypen>
+      </sl:inhoud>
+      <sl:stand>
+         <owObject>
+            <rol:Activiteit>
+               <ow:status>beëindigen</ow:status>
+               <ow:procedurestatus>ontwerp</ow:procedurestatus>
+               <rol:identificatie>nl.imow-gm0299.activiteit.carbidschieten</rol:identificatie>
+               <rol:naam>Carbid schieten</rol:naam>
+               <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/MilieubelastendeActiviteitMetBeperktEffect</rol:groep>
+               <rol:bovenliggendeActiviteit>
+                  <rol:ActiviteitRef xlink:href="nl.imow-gm0299.activiteit.ActInOmgevingsplanHelloDSO"/>
+               </rol:bovenliggendeActiviteit>
+            </rol:Activiteit>
+         </owObject>
+      </sl:stand>
+      <sl:stand>
+         <!-- activiteitnaam wijzigt -->
+         <owObject>
+            <rol:Activiteit>
+               <ow:procedurestatus>ontwerp</ow:procedurestatus>
+               <rol:identificatie>nl.imow-gm0299.activiteit.zwemmen</rol:identificatie>
+               <rol:naam>Buiten zwemmen</rol:naam>
+               <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/MilieubelastendeActiviteit</rol:groep>
+               <rol:bovenliggendeActiviteit>
+                  <rol:ActiviteitRef
+                     xlink:href="nl.imow-gm0299.activiteit.ActInOmgevingsplanHelloDSO"/>
+               </rol:bovenliggendeActiviteit>
+            </rol:Activiteit>
+         </owObject>
+      </sl:stand>     
+      <sl:stand>
+         <!-- nieuwe activiteit -->
+         <owObject>
+            <rol:Activiteit>
+               <ow:procedurestatus>ontwerp</ow:procedurestatus>
+               <rol:identificatie>nl.imow-gm0299.activiteit.alcoholgebruik</rol:identificatie>
+               <rol:naam>Alcohol drinken in het openbaar</rol:naam>
+               <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/MaatschappelijkeActiviteit</rol:groep>
+               <rol:bovenliggendeActiviteit>
+                  <rol:ActiviteitRef
+                     xlink:href="nl.imow-gm0299.activiteit.ActInOmgevingsplanHelloDSO"/>
+               </rol:bovenliggendeActiviteit>
+            </rol:Activiteit>
+         </owObject>
+      </sl:stand>     
+      <sl:stand>
+          <!-- nieuwe activiteit -->
+         <owObject>
+            <rol:Activiteit>
+               <ow:procedurestatus>ontwerp</ow:procedurestatus>
+               <rol:identificatie>nl.imow-gm0299.activiteit.sportvissen</rol:identificatie>
+               <rol:naam>Sportvissen</rol:naam>
+               <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/MilieubelastendeActiviteit</rol:groep>
+               <rol:bovenliggendeActiviteit>
+                  <rol:ActiviteitRef
+                     xlink:href="nl.imow-gm0299.activiteit.ActInOmgevingsplanHelloDSO"/>
+               </rol:bovenliggendeActiviteit>
+            </rol:Activiteit>
+         </owObject>
+      </sl:stand>     
+   </sl:standBestand>
+</owBestand>

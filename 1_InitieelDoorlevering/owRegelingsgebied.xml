@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- namespace alias ow-dc can be removed if namespace set to xmlns -->
+<ow-dc:owBestand 
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sl="http://www.geostandaarden.nl/bestanden-ow/standlevering-generiek"
+   xmlns:ow-dc="http://www.geostandaarden.nl/imow/bestanden/deelbestand"
+   xmlns:ow="http://www.geostandaarden.nl/imow/owobject"
+   xmlns:rg="http://www.geostandaarden.nl/imow/regelingsgebied"
+   xmlns:l="http://www.geostandaarden.nl/imow/locatie">
+   <sl:standBestand>
+      <sl:dataset>HelloDSOData</sl:dataset>
+      <sl:inhoud>
+         <sl:gebied>HelloDSO</sl:gebied>
+         <sl:leveringsId>HelloDSO_Inititeel_001</sl:leveringsId>
+         <sl:objectTypen>
+            <sl:objectType>Regelingsgebied</sl:objectType>
+         </sl:objectTypen>
+      </sl:inhoud>
+      <sl:stand>
+         <ow-dc:owObject>
+            <rg:Regelingsgebied>
+               <rg:identificatie>nl.imow-gm0299.regelingsgebied.hellodso</rg:identificatie>
+               <rg:locatieaanduiding>
+                  <l:LocatieRef xlink:href="nl.imow-gm0299.ambtsgebied.9999999999"/>
+               </rg:locatieaanduiding>
+            </rg:Regelingsgebied>
+         </ow-dc:owObject>
+      </sl:stand>
+   </sl:standBestand>
+</ow-dc:owBestand>

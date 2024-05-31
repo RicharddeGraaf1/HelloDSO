@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ow-dc:owBestand xmlns="http://www.geostandaarden.nl/bestanden-ow/standlevering-generiek" 
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:ga="http://www.geostandaarden.nl/imow/gebiedsaanwijzing"
+   xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:l="http://www.geostandaarden.nl/imow/locatie"
+   xmlns:da="http://www.geostandaarden.nl/imow/datatypenalgemeen"
+   xmlns:ow-dc="http://www.geostandaarden.nl/imow/bestanden/deelbestand"
+   xmlns:rol="http://www.geostandaarden.nl/imow/regelsoplocatie"
+   xmlns:ow="http://www.geostandaarden.nl/imow/owobject"
+   xmlns:r="http://www.geostandaarden.nl/imow/regels"
+   xmlns:op="http://www.geostandaarden.nl/imow/opobject">
+   <!-- default namespace used so that sl alias cam be avoided -->
+   <standBestand>
+      <dataset>HelloDSOData</dataset>
+      <inhoud>
+         <gebied>HelloDSO</gebied>
+         <leveringsId>HelloDSO_Inititeel_001</leveringsId>
+         <objectTypen>
+            <objectType>Gebiedsaanwijzing</objectType>
+         </objectTypen>
+      </inhoud>
+      <stand>
+         <ow-dc:owObject>
+            <ga:Gebiedsaanwijzing>
+               <ga:identificatie>nl.imow-gm0299.gebiedsaanwijzing.Stiltegebied</ga:identificatie>
+               <ga:type>http://standaarden.omgevingswet.overheid.nl/typegebiedsaanwijzing/id/concept/Functie</ga:type>
+               <ga:naam>Stiltegebied</ga:naam>
+               <ga:groep>http://standaarden.omgevingswet.overheid.nl/functie/id/concept/Overig</ga:groep>
+               <ga:locatieaanduiding>
+                  <l:LocatieRef xlink:href="nl.imow-gm0299.gebied.Zuiderburen"/>
+                  <l:LocatieRef xlink:href="nl.imow-gm0299.gebied.Noordereilanden"/>
+               </ga:locatieaanduiding>
+            </ga:Gebiedsaanwijzing>
+         </ow-dc:owObject>
+      </stand>
+      <stand>
+         <ow-dc:owObject>
+            <ga:Gebiedsaanwijzing>
+               <ga:identificatie>nl.imow-gm0299.gebiedsaanwijzing.Horecagebied</ga:identificatie>
+               <ga:type>http://standaarden.omgevingswet.overheid.nl/typegebiedsaanwijzing/id/concept/Functie</ga:type>
+               <ga:naam>Horecagebied</ga:naam>
+               <ga:groep>http://standaarden.omgevingswet.overheid.nl/functie/id/concept/Overig</ga:groep>
+               <ga:locatieaanduiding>
+                  <l:LocatieRef xlink:href="nl.imow-gm0299.gebied.BinnenstadWest"/>
+               </ga:locatieaanduiding>
+            </ga:Gebiedsaanwijzing>
+         </ow-dc:owObject>
+      </stand>
+   </standBestand>
+</ow-dc:owBestand>

@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<owBestand xmlns="http://www.geostandaarden.nl/imow/bestanden/deelbestand"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:ga="http://www.geostandaarden.nl/imow/gebiedsaanwijzing"
+   xmlns:da="http://www.geostandaarden.nl/imow/datatypenalgemeen"
+   xmlns:sl="http://www.geostandaarden.nl/bestanden-ow/standlevering-generiek"
+   xmlns:ow="http://www.geostandaarden.nl/imow/owobject"
+   xmlns:rol="http://www.geostandaarden.nl/imow/regelsoplocatie"
+   xmlns:l="http://www.geostandaarden.nl/imow/locatie"
+   xmlns:r="http://www.geostandaarden.nl/imow/regels"
+   xmlns:k="http://www.geostandaarden.nl/imow/kaart">
+   <sl:standBestand>
+      <sl:dataset>HelloDSOData</sl:dataset>
+      <sl:inhoud>
+         <sl:gebied>Amsterdam</sl:gebied>
+         <sl:leveringsId>HelloDSO_Inititeel_001</sl:leveringsId>
+         <sl:objectTypen>
+            <sl:objectType>Regeltekst</sl:objectType>
+            <sl:objectType>RegelVoorIedereen</sl:objectType>
+         </sl:objectTypen>
+      </sl:inhoud>
+      <sl:stand>
+         <owObject>
+            <!-- koppeling met tophaak -->
+            <r:Regeltekst wId="gm0299_v1__chp_0__art_0.1">
+               <r:identificatie>nl.imow-gm0299.regeltekst.gm0299v1chp0art01</r:identificatie>
+            </r:Regeltekst>
+         </owObject>
+      </sl:stand>
+      <sl:stand>
+         <owObject>
+            <r:RegelVoorIedereen>
+               <r:identificatie>nl.imow-gm0299.juridischeregel.gm0299v1chp0art01</r:identificatie>
+               <r:idealisatie>http://standaarden.omgevingswet.overheid.nl/idealisatie/id/concept/Exact</r:idealisatie>
+               <r:artikelOfLid>
+                  <r:RegeltekstRef xlink:href="nl.imow-gm0299.regeltekst.gm0299v1chp0art01"/>
+               </r:artikelOfLid>
+               <r:locatieaanduiding>
+                  <l:LocatieRef xlink:href="nl.imow-gm0299.ambtsgebied.9999999998"/>
+               </r:locatieaanduiding>
+               <r:activiteitaanduiding>
+                  <rol:ActiviteitRef xlink:href="nl.imow-gm0299.activiteit.ActInOmgevingsplanHelloDSO"/>
+                  <r:ActiviteitLocatieaanduiding>
+                     <r:identificatie>nl.imow-gm0299.activiteitlocatieaanduiding.workaroundbovenliggende</r:identificatie>
+                     <r:activiteitregelkwalificatie>http://standaarden.omgevingswet.overheid.nl/activiteitregelkwalificatie/id/concept/AndersGeduid</r:activiteitregelkwalificatie>
+                     <r:locatieaanduiding>
+                        <l:LocatieRef xlink:href="nl.imow-gm0299.ambtsgebied.9999999998"/>
+                     </r:locatieaanduiding>
+                  </r:ActiviteitLocatieaanduiding>
+               </r:activiteitaanduiding>
+            </r:RegelVoorIedereen>
+         </owObject>
+      </sl:stand>
+      <sl:stand>
+         <owObject>
+            <r:Regeltekst wId="gm0299_v1__chp_1__art_1__para_1">
+               <r:identificatie>nl.imow-gm0299.regeltekst.gm0299v1chp1art11para1</r:identificatie>
+            </r:Regeltekst>
+         </owObject>
+      </sl:stand>
+      <sl:stand>
+         <owObject>
+            <r:RegelVoorIedereen>
+               <r:identificatie>nl.imow-gm0299.juridischeregel.gm0299v1chp1art11para1</r:identificatie>
+               <r:idealisatie>http://standaarden.omgevingswet.overheid.nl/idealisatie/id/concept/Exact</r:idealisatie>
+               <r:artikelOfLid>
+                  <r:RegeltekstRef xlink:href="nl.imow-gm0299.regeltekst.gm0299v1chp1art11para1"/>
+               </r:artikelOfLid>
+               <r:locatieaanduiding>
+                  <l:LocatieRef xlink:href="nl.imow-gm0299.ambtsgebied.9999999998"/>
+               </r:locatieaanduiding>
+            </r:RegelVoorIedereen>
+         </owObject>
+      </sl:stand>
+      <sl:stand>
+         <owObject>
+            <r:Regeltekst wId="gm0299_v1__chp_1__art_1__para_2">
+               <r:identificatie>nl.imow-gm0299.regeltekst.gm0299v1chp1art11para2</r:identificatie>
+            </r:Regeltekst>
+         </owObject>
+      </sl:stand>
+      <sl:stand>
+         <owObject>
+            <r:RegelVoorIedereen>
+               <r:identificatie>nl.imow-gm0299.juridischeregel.gm0299v1chp1art11para2</r:identificatie>
+               <r:idealisatie>http://standaarden.omgevingswet.overheid.nl/idealisatie/id/concept/Exact</r:idealisatie>
+               <r:artikelOfLid>
+                  <r:RegeltekstRef xlink:href="nl.imow-gm0299.regeltekst.gm0299v1chp1art11para2"/>
+               </r:artikelOfLid>
+               <r:locatieaanduiding>
+                  <l:LocatieRef xlink:href="nl.imow-gm0299.gebied.Noordereilanden"/>
+               </r:locatieaanduiding>
+            </r:RegelVoorIedereen>
+         </owObject>
+      </sl:stand>
+      <sl:stand>
+         <owObject>
+            <!-- regeltekst op lid niveau -->
+            <r:Regeltekst wId="gm0299_v1__chp_1__art_1__para_3">
+               <r:identificatie>nl.imow-gm0299.regeltekst.gm0299v1chp1art11para3</r:identificatie>
+            </r:Regeltekst>
+         </owObject>
+      </sl:stand>
+      <sl:stand>
+         <!-- stiltegebied, geen activiteit -->
+         <owObject>
+            <r:RegelVoorIedereen>
+               <r:identificatie>nl.imow-gm0299.juridischeregel.gm0299v1chp1art11para3</r:identificatie>
+               <r:idealisatie>http://standaarden.omgevingswet.overheid.nl/idealisatie/id/concept/Exact</r:idealisatie>
+               <r:artikelOfLid>
+                  <r:RegeltekstRef xlink:href="nl.imow-gm0299.regeltekst.gm0299v1chp1art11para3"/>
+               </r:artikelOfLid>
+               <r:locatieaanduiding>
+                  <l:LocatieRef xlink:href="nl.imow-gm0299.gebied.Zuiderburen"/>
+                  <l:LocatieRef xlink:href="nl.imow-gm0299.gebied.Noordereilanden"/>
+               </r:locatieaanduiding>
+            </r:RegelVoorIedereen>
+         </owObject>
+      </sl:stand>
+      <sl:stand>
+         <owObject>
+            <!-- regeltekst op lid niveau -->
+            <r:Regeltekst wId="gm0299_v1__chp_1__art_1__para_4">
+               <r:identificatie>nl.imow-gm0299.regeltekst.gm0299v1chp1art11para4</r:identificatie>
+            </r:Regeltekst>
+         </owObject>
+      </sl:stand>
+      <sl:stand>
+         <!-- horecagebied gebiedsaanwijzing -->
+         <owObject>
+            <r:RegelVoorIedereen>
+               <r:identificatie>nl.imow-gm0299.juridischeregel.gm0299v1chp1art11para4</r:identificatie>
+               <r:idealisatie>http://standaarden.omgevingswet.overheid.nl/idealisatie/id/concept/Exact</r:idealisatie>
+               <r:artikelOfLid>
+                  <r:RegeltekstRef xlink:href="nl.imow-gm0299.regeltekst.gm0299v1chp1art11para4"/>
+               </r:artikelOfLid>
+               <r:locatieaanduiding>
+                  <l:LocatieRef xlink:href="nl.imow-gm0299.gebied.Oostelijkehavens"/>
+               </r:locatieaanduiding>
+            </r:RegelVoorIedereen>
+         </owObject>
+      </sl:stand>
+      <sl:stand>
+         <owObject>
+            <r:Regeltekst wId="gm0299_v1__chp_2__art_2.1">
+               <r:identificatie>nl.imow-gm0299.regeltekst.gm0299v1chp2art21</r:identificatie>
+            </r:Regeltekst>
+         </owObject>
+      </sl:stand>
+      <sl:stand>
+         <!-- horecabedrijf activiteit via gebiedengroep en gebiedsaanwijzing -->
+         <owObject>
+            <r:RegelVoorIedereen>
+               <r:identificatie>nl.imow-gm0299.juridischeregel.gm0299v1chp2art21</r:identificatie>
+               <r:idealisatie>http://standaarden.omgevingswet.overheid.nl/idealisatie/id/concept/Exact</r:idealisatie>
+               <r:artikelOfLid>
+                  <r:RegeltekstRef xlink:href="nl.imow-gm0299.regeltekst.gm0299v1chp2art21"/>
+               </r:artikelOfLid>
+               <r:locatieaanduiding>
+                  <l:LocatieRef xlink:href="nl.imow-gm0299.gebiedengroep.Horecagebieden"/>
+               </r:locatieaanduiding>
+               <r:gebiedsaanwijzing>
+                  <ga:GebiedsaanwijzingRef xlink:href="nl.imow-gm0299.gebiedsaanwijzing.Horecagebied"/>
+               </r:gebiedsaanwijzing>
+               <r:activiteitaanduiding>
+                  <rol:ActiviteitRef xlink:href="nl.imow-gm0299.activiteit.horecabedrijf"/>
+                  <r:ActiviteitLocatieaanduiding>
+                     <r:identificatie>nl.imow-gm0299.activiteitlocatieaanduiding.horecabedrijf</r:identificatie>
+                     <r:activiteitregelkwalificatie>http://standaarden.omgevingswet.overheid.nl/activiteitregelkwalificatie/id/concept/Toegestaan</r:activiteitregelkwalificatie>
+                     <r:locatieaanduiding>
+                        <l:LocatieRef xlink:href="nl.imow-gm0299.gebiedengroep.Horecagebieden"/>
+                     </r:locatieaanduiding>
+                  </r:ActiviteitLocatieaanduiding>
+               </r:activiteitaanduiding>
+            </r:RegelVoorIedereen>
+         </owObject>
+      </sl:stand>
+      <sl:stand>
+         <owObject>
+            <r:Regeltekst wId="gm0299_v1__chp_2__art_2.2">
+               <r:identificatie>nl.imow-gm0299.regeltekst.gm0299v1chp2art22</r:identificatie>
+            </r:Regeltekst>
+         </owObject>
+      </sl:stand>
+      <sl:stand>
+         <!-- horecabedrijf activiteit via gebiedengroep en gebiedsaanwijzing -->
+         <owObject>
+            <r:RegelVoorIedereen>
+               <r:identificatie>nl.imow-gm0299.juridischeregel.gm0299v1chp2art22</r:identificatie>
+               <r:idealisatie>http://standaarden.omgevingswet.overheid.nl/idealisatie/id/concept/Exact</r:idealisatie>
+               <r:artikelOfLid>
+                  <r:RegeltekstRef xlink:href="nl.imow-gm0299.regeltekst.gm0299v1chp2art22"/>
+               </r:artikelOfLid>
+               <r:locatieaanduiding>
+                  <l:LocatieRef xlink:href="nl.imow-gm0299.gebiedengroep.Horecagebieden"/>
+               </r:locatieaanduiding>
+               <r:gebiedsaanwijzing>
+                  <ga:GebiedsaanwijzingRef xlink:href="nl.imow-gm0299.gebiedsaanwijzing.Stiltegebied"/>
+               </r:gebiedsaanwijzing>
+            </r:RegelVoorIedereen>
+         </owObject>
+      </sl:stand>
+      <sl:stand>
+         <owObject>
+            <r:Regeltekst wId="gm0299_v1__chp_3__art_3.1">
+               <r:identificatie>nl.imow-gm0299.regeltekst.gm0299v1chp3art31</r:identificatie>
+            </r:Regeltekst>
+         </owObject>
+      </sl:stand>
+      <sl:stand>
+         <!-- consumentenvuurwerk activiteit per gebied -->
+         <owObject>
+            <r:RegelVoorIedereen>
+               <r:identificatie>nl.imow-gm0299.juridischeregel.gm0299v1chp3art31</r:identificatie>
+               <r:idealisatie>http://standaarden.omgevingswet.overheid.nl/idealisatie/id/concept/Exact</r:idealisatie>
+               <r:artikelOfLid>
+                  <r:RegeltekstRef xlink:href="nl.imow-gm0299.regeltekst.gm0299v1chp3art31"/>
+               </r:artikelOfLid>
+               <r:locatieaanduiding>
+                  <l:LocatieRef xlink:href="nl.imow-gm0299.gebied.BinnenstadWest"/>
+               </r:locatieaanduiding>
+               <r:activiteitaanduiding>
+                  <rol:ActiviteitRef xlink:href="nl.imow-gm0299.activiteit.consumentenvuurwerk"/>
+                  <r:ActiviteitLocatieaanduiding>
+                     <r:identificatie>nl.imow-gm0299.activiteitlocatieaanduiding.consumentenvuurwerk</r:identificatie>
+                     <r:activiteitregelkwalificatie>http://standaarden.omgevingswet.overheid.nl/activiteitregelkwalificatie/id/concept/Verbod</r:activiteitregelkwalificatie>
+                     <r:locatieaanduiding>
+                        <l:LocatieRef xlink:href="nl.imow-gm0299.gebied.BinnenstadWest"/>
+                     </r:locatieaanduiding>
+                  </r:ActiviteitLocatieaanduiding>
+               </r:activiteitaanduiding>
+            </r:RegelVoorIedereen>
+         </owObject>
+      </sl:stand>
+      <sl:stand>
+         <!-- carbidschieten activiteit per gebied -->
+         <owObject>
+            <r:Regeltekst wId="gm0299_v1__chp_3__art_3.2">
+               <r:identificatie>nl.imow-gm0299.regeltekst.gm0299v1chp3art32</r:identificatie>
+            </r:Regeltekst>
+         </owObject>
+      </sl:stand>
+      <sl:stand>
+         <owObject>
+            <r:RegelVoorIedereen>
+               <r:identificatie>nl.imow-gm0299.juridischeregel.gm0299v1chp3art32</r:identificatie>
+               <r:idealisatie>http://standaarden.omgevingswet.overheid.nl/idealisatie/id/concept/Exact</r:idealisatie>
+               <r:artikelOfLid>
+                  <r:RegeltekstRef xlink:href="nl.imow-gm0299.regeltekst.gm0299v1chp3art32"/>
+               </r:artikelOfLid>
+               <r:locatieaanduiding>
+                  <l:LocatieRef xlink:href="nl.imow-gm0299.gebied.Zuiderburen"/>
+               </r:locatieaanduiding>
+               <r:activiteitaanduiding>
+                  <rol:ActiviteitRef xlink:href="nl.imow-gm0299.activiteit.carbidschieten"/>
+                  <r:ActiviteitLocatieaanduiding>
+                     <r:identificatie>nl.imow-gm0299.activiteitlocatieaanduiding.carbidschieten</r:identificatie>
+                     <r:activiteitregelkwalificatie>http://standaarden.omgevingswet.overheid.nl/activiteitregelkwalificatie/id/concept/Toegestaan</r:activiteitregelkwalificatie>
+                     <r:locatieaanduiding>
+                        <l:LocatieRef xlink:href="nl.imow-gm0299.gebied.Zuiderburen"/>
+                     </r:locatieaanduiding>
+                  </r:ActiviteitLocatieaanduiding>
+               </r:activiteitaanduiding>
+            </r:RegelVoorIedereen>
+         </owObject>
+      </sl:stand>
+      <sl:stand>
+         <owObject>
+            <r:Regeltekst wId="gm0299_v1__chp_4__art_4.1">
+               <r:identificatie>nl.imow-gm0299.regeltekst.gm0299v1chp4art41</r:identificatie>
+            </r:Regeltekst>
+         </owObject>
+      </sl:stand>
+      <sl:stand>
+         <owObject>
+            <r:RegelVoorIedereen>
+               <r:identificatie>nl.imow-gm0299.juridischeregel.gm0299v1chp4art41</r:identificatie>
+               <r:idealisatie>http://standaarden.omgevingswet.overheid.nl/idealisatie/id/concept/Exact</r:idealisatie>
+               <r:artikelOfLid>
+                  <r:RegeltekstRef xlink:href="nl.imow-gm0299.regeltekst.gm0299v1chp4art41"/>
+               </r:artikelOfLid>
+               <r:locatieaanduiding>
+                  <l:LocatieRef xlink:href="nl.imow-gm0299.ambtsgebied.9999999998"/>
+               </r:locatieaanduiding>
+               <r:omgevingsnormaanduiding>
+                  <rol:OmgevingsnormRef xlink:href="nl.imow-gm0299.omgevingsnorm.Bouwhoogte"/>
+               </r:omgevingsnormaanduiding>
+            </r:RegelVoorIedereen>
+         </owObject>
+      </sl:stand>
+      <sl:stand>
+         <owObject>
+            <r:Regeltekst wId="gm0299_v1__chp_5__art_5.1">
+               <r:identificatie>nl.imow-gm0299.regeltekst.gm0299v1chp5art51</r:identificatie>
+            </r:Regeltekst>
+         </owObject>
+      </sl:stand>
+      <sl:stand>
+         <owObject>
+            <r:RegelVoorIedereen>
+               <r:identificatie>nl.imow-gm0299.juridischeregel.gm0299v1chp5art51</r:identificatie>
+               <r:idealisatie>http://standaarden.omgevingswet.overheid.nl/idealisatie/id/concept/Exact</r:idealisatie>
+               <r:artikelOfLid>
+                  <r:RegeltekstRef xlink:href="nl.imow-gm0299.regeltekst.gm0299v1chp5art51"/>
+               </r:artikelOfLid>
+               <r:locatieaanduiding>
+                  <l:LocatieRef xlink:href="nl.imow-gm0299.ambtsgebied.9999999998"/>
+               </r:locatieaanduiding>
+               <r:activiteitaanduiding>
+                  <rol:ActiviteitRef xlink:href="nl.imow-gm0299.activiteit.zwemmen"/>
+                  <r:ActiviteitLocatieaanduiding>
+                     <r:identificatie>nl.imow-gm0299.activiteitlocatieaanduiding.buitenzwemmen</r:identificatie>
+                     <r:activiteitregelkwalificatie>http://standaarden.omgevingswet.overheid.nl/activiteitregelkwalificatie/id/concept/AndersGeduid</r:activiteitregelkwalificatie>
+                     <r:locatieaanduiding>
+                        <l:LocatieRef xlink:href="nl.imow-gm0299.ambtsgebied.9999999998"/>
+                     </r:locatieaanduiding>
+                  </r:ActiviteitLocatieaanduiding>
+               </r:activiteitaanduiding>
+            </r:RegelVoorIedereen>
+         </owObject>
+      </sl:stand>
+      
+   </sl:standBestand>
+</owBestand>

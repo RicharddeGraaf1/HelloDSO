@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<owBestand xmlns="http://www.geostandaarden.nl/imow/bestanden/deelbestand"  
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:ga="http://www.geostandaarden.nl/imow/gebiedsaanwijzing"
+   xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:l="http://www.geostandaarden.nl/imow/locatie"
+   xmlns:da="http://www.geostandaarden.nl/imow/datatypenalgemeen"
+   xmlns:sl="http://www.geostandaarden.nl/bestanden-ow/standlevering-generiek"  
+   xmlns:rol="http://www.geostandaarden.nl/imow/regelsoplocatie"
+   xmlns:r="http://www.geostandaarden.nl/imow/regels"
+   xmlns:ow="http://www.geostandaarden.nl/imow/owobject">
+   <sl:standBestand>
+      <sl:dataset>HelloDSOData</sl:dataset>
+      <sl:inhoud>
+         <sl:gebied>Amsterdam</sl:gebied>
+         <sl:leveringsId>HelloDSO_Inititeel_001</sl:leveringsId>
+         <sl:objectTypen>
+            <sl:objectType>Gebied</sl:objectType>
+            <sl:objectType>Gebiedengroep</sl:objectType>
+            <sl:objectType>Ambtsgebied</sl:objectType>
+         </sl:objectTypen>
+      </sl:inhoud>
+      <sl:stand>
+         <owObject>
+            <l:Gebiedengroep>
+               <l:identificatie>nl.imow-gm0299.gebiedengroep.Horecagebieden</l:identificatie>
+               <l:noemer>Horecagebieden</l:noemer>
+               <l:groepselement>
+                  <l:GebiedRef xlink:href="nl.imow-gm0299.gebied.BinnenstadWest"/>
+               </l:groepselement>
+            </l:Gebiedengroep>
+         </owObject>
+      </sl:stand>
+      <sl:stand>
+         <owObject>
+            <l:Gebied>
+               <l:identificatie>nl.imow-gm0299.gebied.BinnenstadWest</l:identificatie>
+               <!-- voorkom 'Naam onbekend' in de viewer en geef een noemer -->
+               <l:noemer>Binnenstad centrum West</l:noemer>
+               <l:geometrie>
+                  <l:GeometrieRef xlink:href="79545898-d7b5-43d5-b0f6-e986a3c51021"/>
+               </l:geometrie>
+            </l:Gebied>
+         </owObject>
+      </sl:stand>
+      <sl:stand>
+         <owObject>
+            <l:Gebied>
+               <l:identificatie>nl.imow-gm0299.gebied.Zuiderburen</l:identificatie>
+               <!-- voorkom 'Naam onbekend' in de viewer en geef een noemer -->
+               <l:noemer>Zuiderburen</l:noemer>
+               <l:geometrie>
+                  <l:GeometrieRef xlink:href="79545898-d7b5-43d5-b0f6-e986a3c51022"/>
+               </l:geometrie>
+            </l:Gebied>
+         </owObject>
+      </sl:stand>
+      <sl:stand>
+         <owObject>
+            <l:Gebied>
+               <l:identificatie>nl.imow-gm0299.gebied.Noordereilanden</l:identificatie>
+               <!-- voorkom 'Naam onbekend' in de viewer en geef een noemer -->
+               <l:noemer>Noordereilanden</l:noemer>
+               <l:geometrie>
+                  <l:GeometrieRef xlink:href="79545898-d7b5-43d5-b0f6-e986a3c51023"/>
+               </l:geometrie>
+            </l:Gebied>
+         </owObject>
+      </sl:stand>
+      <sl:stand>
+         <owObject>
+            <l:Gebied>
+               <l:identificatie>nl.imow-gm0299.gebied.Oostelijkehavens</l:identificatie>
+               <!-- voorkom 'Naam onbekend' in de viewer en geef een noemer -->
+               <l:noemer>Oostelijke havens</l:noemer>
+               <l:geometrie>
+                  <l:GeometrieRef xlink:href="79545898-d7b5-43d5-b0f6-e986a3c51024"/>
+               </l:geometrie>
+            </l:Gebied>
+         </owObject>
+      </sl:stand>
+      <sl:stand>
+         <owObject>
+            <l:Ambtsgebied>
+               <l:identificatie>nl.imow-gm0299.ambtsgebied.9999999998</l:identificatie>
+               <l:bestuurlijkeGrenzenVerwijzing>
+                  <l:BestuurlijkeGrenzenVerwijzing>
+                     <l:bestuurlijkeGrenzenID>GM0299</l:bestuurlijkeGrenzenID>
+                     <l:domein>NL.BI.BestuurlijkGebied</l:domein>
+                     <l:geldigOp>2022-03-01</l:geldigOp>
+                  </l:BestuurlijkeGrenzenVerwijzing>
+               </l:bestuurlijkeGrenzenVerwijzing>
+            </l:Ambtsgebied>
+         </owObject>
+      </sl:stand>
+   </sl:standBestand>
+</owBestand>

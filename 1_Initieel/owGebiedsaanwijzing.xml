@@ -22,13 +22,13 @@
       <stand>
          <ow-dc:owObject>
             <ga:Gebiedsaanwijzing>
-               <ga:identificatie>nl.imow-gm0299.gebiedsaanwijzing.Stiltegebied</ga:identificatie>
+               <ga:identificatie>nl.imow-gm0160.gebiedsaanwijzing.Stiltegebied</ga:identificatie>
                <ga:type>http://standaarden.omgevingswet.overheid.nl/typegebiedsaanwijzing/id/concept/Functie</ga:type>
                <ga:naam>Stiltegebied</ga:naam>
                <ga:groep>http://standaarden.omgevingswet.overheid.nl/functie/id/concept/Overig</ga:groep>
                <ga:locatieaanduiding>
-                  <l:LocatieRef xlink:href="nl.imow-gm0299.gebied.Zuiderburen"/>
-                  <l:LocatieRef xlink:href="nl.imow-gm0299.gebied.Noordereilanden"/>
+                  <l:LocatieRef xlink:href="nl.imow-gm0160.gebied.Zuiderburen"/>
+                  <l:LocatieRef xlink:href="nl.imow-gm0160.gebied.Noordereilanden"/>
                </ga:locatieaanduiding>
             </ga:Gebiedsaanwijzing>
          </ow-dc:owObject>
@@ -36,12 +36,51 @@
       <stand>
          <ow-dc:owObject>
             <ga:Gebiedsaanwijzing>
-               <ga:identificatie>nl.imow-gm0299.gebiedsaanwijzing.Horecagebied</ga:identificatie>
+               <ga:identificatie>nl.imow-gm0160.gebiedsaanwijzing.Horecagebied</ga:identificatie>
                <ga:type>http://standaarden.omgevingswet.overheid.nl/typegebiedsaanwijzing/id/concept/Functie</ga:type>
                <ga:naam>Horecagebied</ga:naam>
                <ga:groep>http://standaarden.omgevingswet.overheid.nl/functie/id/concept/Overig</ga:groep>
                <ga:locatieaanduiding>
-                  <l:LocatieRef xlink:href="nl.imow-gm0299.gebied.BinnenstadWest"/>
+                  <l:LocatieRef xlink:href="nl.imow-gm0160.gebied.BinnenstadWest"/>
+               </ga:locatieaanduiding>
+            </ga:Gebiedsaanwijzing>
+         </ow-dc:owObject>
+      </stand>
+      <stand>
+         <ow-dc:owObject>
+            <ga:Gebiedsaanwijzing>
+               <ga:identificatie>nl.imow-gm0160.gebiedsaanwijzing.oudeNaam</ga:identificatie>
+               <ga:type>http://standaarden.omgevingswet.overheid.nl/typegebiedsaanwijzing/id/concept/Functie</ga:type>
+               <ga:naam>oude naam</ga:naam>
+               <ga:groep>http://standaarden.omgevingswet.overheid.nl/functie/id/concept/Overig</ga:groep>
+               <ga:locatieaanduiding>
+                  <l:LocatieRef xlink:href="nl.imow-gm0160.gebied.winkelgebied"/>
+               </ga:locatieaanduiding>
+            </ga:Gebiedsaanwijzing>
+         </ow-dc:owObject>
+      </stand>
+      <stand>
+         <ow-dc:owObject>
+            <ga:Gebiedsaanwijzing>
+               <ga:identificatie>nl.imow-gm0160.gebiedsaanwijzing.verwijderdeGebiedsaanwijzing</ga:identificatie>
+               <ga:type>http://standaarden.omgevingswet.overheid.nl/typegebiedsaanwijzing/id/concept/Functie</ga:type>
+               <ga:naam>verwijderde gebiedsaanwijzing 2</ga:naam>
+               <ga:groep>http://standaarden.omgevingswet.overheid.nl/functie/id/concept/Overig</ga:groep>
+               <ga:locatieaanduiding>
+                  <l:LocatieRef xlink:href="nl.imow-gm0160.gebied.industriezone"/>
+               </ga:locatieaanduiding>
+            </ga:Gebiedsaanwijzing>
+         </ow-dc:owObject>
+      </stand>
+      <stand>
+         <ow-dc:owObject>
+            <ga:Gebiedsaanwijzing>
+               <ga:identificatie>nl.imow-gm0160.gebiedsaanwijzing.gewijzigdeLocatie</ga:identificatie>
+               <ga:type>http://standaarden.omgevingswet.overheid.nl/typegebiedsaanwijzing/id/concept/Functie</ga:type>
+               <ga:naam>Gebiedsaanwijzing 4</ga:naam>
+               <ga:groep>http://standaarden.omgevingswet.overheid.nl/functie/id/concept/Overig</ga:groep>
+               <ga:locatieaanduiding>
+                  <l:LocatieRef xlink:href="nl.imow-gm0160.gebied.industriezone"/>
                </ga:locatieaanduiding>
             </ga:Gebiedsaanwijzing>
          </ow-dc:owObject>

@@ -20,9 +20,9 @@
       <sl:stand>
          <ow-dc:owObject>
             <rg:Regelingsgebied>
-               <rg:identificatie>nl.imow-gm0299.regelingsgebied.hellodso</rg:identificatie>
+               <rg:identificatie>nl.imow-gm0160.regelingsgebied.hellodso</rg:identificatie>
                <rg:locatieaanduiding>
-                  <l:LocatieRef xlink:href="nl.imow-gm0299.ambtsgebied.9999999998"/>
+                  <l:LocatieRef xlink:href="nl.imow-gm0160.ambtsgebied.9999999998"/>
                </rg:locatieaanduiding>
             </rg:Regelingsgebied>
          </ow-dc:owObject>

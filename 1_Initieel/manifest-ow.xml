@@ -2,8 +2,8 @@
 <Aanleveringen xmlns="http://www.geostandaarden.nl/bestanden-ow/manifest-ow">
     <domein >omgevingswet</domein>
     <Aanlevering>
-        <WorkIDRegeling>/akn/nl/act/gm0299/2023/Omgevingsplan-HelloDSO</WorkIDRegeling>
-        <DoelID>/join/id/proces/gm0299/2022/Omgevingsplan-HelloDSO</DoelID>
+        <WorkIDRegeling>/akn/nl/act/gm0160/2023/Omgevingsplan-HelloDSO</WorkIDRegeling>
+        <DoelID>/join/id/proces/gm0160/2022/Omgevingsplan-HelloDSO</DoelID>
         <Bestand>
             <naam>owActiviteiten.xml</naam>
             <objecttype>Activiteit</objecttype>
@@ -21,6 +21,7 @@
         <Bestand>
             <naam>owOmgevingsnorm.xml</naam>
             <objecttype>Omgevingsnorm</objecttype>
+            <objecttype>Omgevingswaarde</objecttype>
         </Bestand>
         <Bestand>
             <naam>owRegelingsgebied.xml</naam>
@@ -30,6 +31,8 @@
             <naam>owRegeltekst.xml</naam>
             <objecttype>Regeltekst</objecttype>
             <objecttype>RegelVoorIedereen</objecttype>
+            <objecttype>Instructieregel</objecttype>
+            <objecttype>Omgevingswaarderegel</objecttype>
         </Bestand>
     </Aanlevering>
 </Aanleveringen>

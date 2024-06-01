@@ -41,19 +41,19 @@
         <contentType>application/xml</contentType>
     </bestand>
     <bestand>
-        <bestandsnaam>BinnenstadCentrumWest.gml</bestandsnaam>
+        <bestandsnaam>BinnenstadCentrumWest2.gml</bestandsnaam>
         <contentType>application/gml+xml</contentType>
     </bestand>
     <bestand>
-        <bestandsnaam>BinnenstadCentrumWest.xml</bestandsnaam>
+        <bestandsnaam>BinnenstadCentrumWest2.xml</bestandsnaam>
         <contentType>application/xml</contentType>
     </bestand>
     <bestand>
-        <bestandsnaam>Noordereilanden.gml</bestandsnaam>
+        <bestandsnaam>Noordereilanden2.gml</bestandsnaam>
         <contentType>application/gml+xml</contentType>
     </bestand>
     <bestand>
-        <bestandsnaam>Noordereilanden.xml</bestandsnaam>
+        <bestandsnaam>Noordereilanden2.xml</bestandsnaam>
         <contentType>application/xml</contentType>
     </bestand>
     <bestand>
@@ -77,19 +77,35 @@
         <contentType>image/png</contentType>
     </bestand>
     <bestand>
-        <bestandsnaam>OostelijkeHavens.gml</bestandsnaam>
+        <bestandsnaam>OostelijkeHavens2.gml</bestandsnaam>
         <contentType>application/gml+xml</contentType>
     </bestand>
     <bestand>
-        <bestandsnaam>OostelijkeHavens.xml</bestandsnaam>
+        <bestandsnaam>OostelijkeHavens2.xml</bestandsnaam>
         <contentType>application/xml</contentType>
     </bestand>
     <bestand>
-        <bestandsnaam>Zuiderburen.gml</bestandsnaam>
+        <bestandsnaam>Schefferlaan.gml</bestandsnaam>
         <contentType>application/gml+xml</contentType>
     </bestand>
     <bestand>
-        <bestandsnaam>Zuiderburen.xml</bestandsnaam>
+        <bestandsnaam>Schefferlaan.xml</bestandsnaam>
+        <contentType>application/xml</contentType>
+    </bestand>
+    <bestand>
+        <bestandsnaam>Schefferlaan2.gml</bestandsnaam>
+        <contentType>application/gml+xml</contentType>
+    </bestand>
+    <bestand>
+        <bestandsnaam>Schefferlaan2.xml</bestandsnaam>
+        <contentType>application/xml</contentType>
+    </bestand>
+    <bestand>
+        <bestandsnaam>Zuiderburen2.gml</bestandsnaam>
+        <contentType>application/gml+xml</contentType>
+    </bestand>
+    <bestand>
+        <bestandsnaam>Zuiderburen2.xml</bestandsnaam>
         <contentType>application/xml</contentType>
     </bestand>
 </manifest>

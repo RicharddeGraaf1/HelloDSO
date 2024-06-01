@@ -335,7 +335,7 @@
                             <Kop>
                                 <Label>Hoofdstuk</Label>
                                 <Nummer>5</Nummer>
-                                <Opschrift>Recreactie</Opschrift>
+                                <Opschrift>Recreatie</Opschrift>
                             </Kop>
                             <Artikel eId="chp_5__art_5.1" wId="gm0299_v1__chp_5__art_5.1">
                                 <Kop>
@@ -345,6 +345,138 @@
                                 </Kop>
                                 <Inhoud>
                                     <Al>Het is verboden om buiten te zwemmen <!-- voeg toe: en te sportvissen -->in meren en plassen waar dit niet expliciet via een bord is toegestaan.</Al>
+                                </Inhoud>
+                            </Artikel>
+                        </Hoofdstuk>
+                        <Hoofdstuk wId="gm0299_v1__chp_6" eId="chp_6">
+                            <Kop>
+                                <Label>Hoofdstuk</Label>
+                                <Nummer>6</Nummer>
+                                <Opschrift>Aanwijzing en geometrische begrenzing van locaties (Django-schetsen)</Opschrift>
+                            </Kop>
+                            <Afdeling wId="gm0299_v1__chp_6__subchp_2.2" eId="chp_6__subchp_2.2">
+                                <Kop>
+                                    <Label>Afdeling</Label>
+                                    <Nummer>2.2</Nummer>
+                                    <Opschrift>Water</Opschrift>
+                                </Kop>
+                                <Paragraaf wId="gm0299_v1__chp_6__subchp_2.2__subsec_2.2.1" eId="chp_6__subchp_2.2__subsec_2.2.1">
+                                    <Kop>
+                                        <Nummer>2.2.1</Nummer>
+                                        <Opschrift>Rijkswateren</Opschrift>
+                                    </Kop>
+                                    <Artikel wId="gm0299_v1__chp_6__subchp_2.2__subsec_2.2.1__art_2.1" eId="chp_6__subchp_2.2__subsec_2.2.1__art_2.1">
+                                        <Kop>
+                                            <Label>Artikel</Label>
+                                            <Nummer>2.1</Nummer>
+                                            <Opschrift>Activiteiten in ontwerp</Opschrift>
+                                        </Kop>
+                                        <Inhoud>
+                                            <Al>Dit zou er als volgt uit moeten zien: <InlineTekstAfbeelding 
+                                                naam="ontwerpActiviteitenRenvooi.png" breedte="1440" hoogte="1075" formaat="image/png" dpi="75"/></Al>
+                                        </Inhoud>
+                                    </Artikel>
+                                    <Artikel wId="gm0299_v1__chp_6__subchp_2.2__subsec_2.2.1__art_2.2" eId="chp_6__subchp_2.2__subsec_2.2.1__art_2.2">
+                                        <Kop>
+                                            <Label>Artikel</Label>
+                                            <Nummer>2.2</Nummer>
+                                            <Opschrift>Gebiedsaanwijzingen in ontwerp</Opschrift>
+                                        </Kop>
+                                        <Inhoud>
+                                            <Al>Dit zou er als volgt uit moeten zien: <InlineTekstAfbeelding 
+                                                naam="ontwerpGebiedsaanwijzingRenvooi.png" breedte="1440" hoogte="1075" formaat="image/png" dpi="75"/></Al>
+                                        </Inhoud>
+                                    </Artikel>
+                                    <Artikel wId="gm0299_v1__chp_6__subchp_2.2__subsec_2.2.1__art_2.3" eId="chp_6__subchp_2.2__subsec_2.2.1__art_2.3">
+                                        <Kop>
+                                            <Label>Artikel</Label>
+                                            <Nummer>2.3</Nummer>
+                                            <Opschrift>Locaties in ontwerp</Opschrift>
+                                        </Kop>
+                                        <Inhoud>
+                                            <Al>Dit zou er als volgt uit moeten zien: <InlineTekstAfbeelding 
+                                                naam="ontwerpLocatiesRenvooi.png" breedte="1440" hoogte="1075" formaat="image/png" dpi="75"/></Al>
+                                        </Inhoud>
+                                    </Artikel>
+                                    <Artikel wId="gm0299_v1__chp_6__subchp_2.2__subsec_2.2.1__art_2.4" eId="chp_6__subchp_2.2__subsec_2.2.1__art_2.4">
+                                        <Kop>
+                                            <Label>Artikel</Label>
+                                            <Nummer>2.4</Nummer>
+                                            <Opschrift>Omgevingsnormen in ontwerp</Opschrift>
+                                        </Kop>
+                                        <Inhoud>
+                                            <Al>Dit zou er als volgt uit moeten zien: <InlineTekstAfbeelding 
+                                                naam="ontwerpOmgevingsnormenRenvooi.png" breedte="1440" hoogte="1075" formaat="image/png" dpi="75"/></Al>
+                                        </Inhoud>
+                                    </Artikel>
+                                    <Artikel wId="gm0299_v1__chp_6__subchp_2.2__subsec_2.2.1__art_2.5" eId="chp_6__subchp_2.2__subsec_2.2.1__art_2.5">
+                                        <Kop>
+                                            <Label>Artikel</Label>
+                                            <Nummer>2.5</Nummer>
+                                            <Opschrift>Omgevingswaarden in ontwerp</Opschrift>
+                                        </Kop>
+                                        <Inhoud>
+                                            <Al>Dit zou er als volgt uit moeten zien: <InlineTekstAfbeelding 
+                                                naam="ontwerpOmgevingswaardenRenvooi.png" breedte="1440" hoogte="1075" formaat="image/png" dpi="75"/></Al>
+                                        </Inhoud>
+                                    </Artikel>
+                                </Paragraaf>
+                            </Afdeling>
+                         </Hoofdstuk>
+                        <Hoofdstuk wId="gm0299_v1__chp_7" eId="chp_7">
+                            <Kop>
+                                <Label>Hoofdstuk</Label>
+                                <Nummer>7</Nummer>
+                                <Opschrift>Overige Ozontests</Opschrift>
+                            </Kop>
+                            <Artikel wId="gm0299_v1__chp_7__art_7.1" eId="chp_7__art_7.1">
+                                <Kop>
+                                    <Label>Artikel</Label>
+                                    <Nummer>7.1</Nummer>
+                                    <Opschrift>Thema's</Opschrift>
+                                </Kop>
+                                <Inhoud>
+                                    <Al>Thema-ontwerprenvooi.</Al>
+                                </Inhoud>
+                            </Artikel>
+                            <Artikel wId="gm0299_v1__chp_7__art_7.2" eId="chp_7__art_7.2">
+                                <Kop>
+                                    <Label>Artikel</Label>
+                                    <Nummer>7.2</Nummer>
+                                    <Opschrift>Omgevingsnorm waarde in regeltekst</Opschrift>
+                                </Kop>
+                                <Inhoud>
+                                    <Al>Waarde in regeltekst.</Al>
+                                </Inhoud>
+                            </Artikel>
+                            <Artikel wId="gm0299_v1__chp_7__art_7.3" eId="chp_7__art_7.3">
+                                <Kop>
+                                    <Label>Artikel</Label>
+                                    <Nummer>7.3</Nummer>
+                                    <Opschrift>kwalitatieve norm</Opschrift>
+                                </Kop>
+                                <Inhoud>
+                                    <Al>kwalitatieve norm</Al>
+                                </Inhoud>
+                            </Artikel>
+                            <Artikel wId="gm0299_v1__chp_7__art_7.4" eId="chp_7__art_7.4">
+                                <Kop>
+                                    <Label>Artikel</Label>
+                                    <Nummer>7.4</Nummer>
+                                    <Opschrift>Instructieregels</Opschrift>
+                                </Kop>
+                                <Inhoud>
+                                    <Al>Insructieregeladressaat</Al>
+                                </Inhoud>
+                            </Artikel>
+                            <Artikel wId="gm0299_v1__chp_7__art_7.5" eId="chp_7__art_7.5">
+                                <Kop>
+                                    <Label>Artikel</Label>
+                                    <Nummer>7.5</Nummer>
+                                    <Opschrift>Instructieregels</Opschrift>
+                                </Kop>
+                                <Inhoud>
+                                    <Al>Insructieregeltaakuitoefening</Al>
                                 </Inhoud>
                             </Artikel>
                         </Hoofdstuk>

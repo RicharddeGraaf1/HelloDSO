@@ -57,6 +57,26 @@
         <contentType>application/xml</contentType>
     </bestand>
     <bestand>
+        <bestandsnaam>ontwerpActiviteitenRenvooi.png</bestandsnaam>
+        <contentType>image/png</contentType>
+    </bestand>
+    <bestand>
+        <bestandsnaam>ontwerpGebiedsaanwijzingRenvooi.png</bestandsnaam>
+        <contentType>image/png</contentType>
+    </bestand>
+    <bestand>
+        <bestandsnaam>ontwerpLocatiesRenvooi.png</bestandsnaam>
+        <contentType>image/png</contentType>
+    </bestand>
+    <bestand>
+        <bestandsnaam>ontwerpOmgevingsnormenRenvooi.png</bestandsnaam>
+        <contentType>image/png</contentType>
+    </bestand>
+    <bestand>
+        <bestandsnaam>ontwerpOmgevingswaardenRenvooi.png</bestandsnaam>
+        <contentType>image/png</contentType>
+    </bestand>
+    <bestand>
         <bestandsnaam>OostelijkeHavens.gml</bestandsnaam>
         <contentType>application/gml+xml</contentType>
     </bestand>

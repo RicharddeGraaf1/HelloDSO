@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<owBestand xmlns="http://www.geostandaarden.nl/imow/bestanden/deelbestand"
-   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink"
-   xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:l="http://www.geostandaarden.nl/imow/locatie"
-   xmlns:ga="http://www.geostandaarden.nl/imow/gebiedsaanwijzing"
-   xmlns:da="http://www.geostandaarden.nl/imow/datatypenalgemeen"
-   xmlns:sl="http://www.geostandaarden.nl/bestanden-ow/standlevering-generiek"  
-   xmlns:rol="http://www.geostandaarden.nl/imow/regelsoplocatie"
-   xmlns:r="http://www.geostandaarden.nl/imow/regels"
-   xmlns:ow="http://www.geostandaarden.nl/imow/owobject">
+<owBestand xmlns="http://www.geostandaarden.nl/imow/bestanden/deelbestand" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:l="http://www.geostandaarden.nl/imow/locatie" xmlns:ga="http://www.geostandaarden.nl/imow/gebiedsaanwijzing" xmlns:da="http://www.geostandaarden.nl/imow/datatypenalgemeen" xmlns:sl="http://www.geostandaarden.nl/bestanden-ow/standlevering-generiek" xmlns:rol="http://www.geostandaarden.nl/imow/regelsoplocatie" xmlns:r="http://www.geostandaarden.nl/imow/regels" xmlns:ow="http://www.geostandaarden.nl/imow/owobject">
    <sl:standBestand>
       <sl:dataset>HelloDSOData</sl:dataset>
       <sl:inhoud>
@@ -20,12 +12,11 @@
       <sl:stand>
          <owObject>
             <rol:Activiteit>
-               <rol:identificatie>nl.imow-gm0299.activiteit.horecabedrijf</rol:identificatie>
+               <rol:identificatie>nl.imow-gm0160.activiteit.horecabedrijf</rol:identificatie>
                <rol:naam>Horecabedrijf starten</rol:naam>
                <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/MilieubelastendeActiviteit</rol:groep>
                <rol:bovenliggendeActiviteit>
-                  <rol:ActiviteitRef
-                     xlink:href="nl.imow-gm0299.activiteit.ActInOmgevingsplanHelloDSO"/>
+                  <rol:ActiviteitRef xlink:href="nl.imow-gm0160.activiteit.ActInOmgevingsplanHelloDSO"/>
                </rol:bovenliggendeActiviteit>
             </rol:Activiteit>
          </owObject>
@@ -33,11 +24,11 @@
       <sl:stand>
          <owObject>
             <rol:Activiteit>
-               <rol:identificatie>nl.imow-gm0299.activiteit.consumentenvuurwerk</rol:identificatie>
+               <rol:identificatie>nl.imow-gm0160.activiteit.consumentenvuurwerk</rol:identificatie>
                <rol:naam>Consumentenvuurwerk afsteken</rol:naam>
                <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/MilieubelastendeActiviteitMetBeperktEffect</rol:groep>
                <rol:bovenliggendeActiviteit>
-                  <rol:ActiviteitRef xlink:href="nl.imow-gm0299.activiteit.ActInOmgevingsplanHelloDSO"/>
+                  <rol:ActiviteitRef xlink:href="nl.imow-gm0160.activiteit.ActInOmgevingsplanHelloDSO"/>
                </rol:bovenliggendeActiviteit>
             </rol:Activiteit>
          </owObject>
@@ -45,11 +36,11 @@
       <sl:stand>
          <owObject>
             <rol:Activiteit>
-               <rol:identificatie>nl.imow-gm0299.activiteit.carbidschieten</rol:identificatie>
+               <rol:identificatie>nl.imow-gm0160.activiteit.carbidschieten</rol:identificatie>
                <rol:naam>Carbid schieten</rol:naam>
                <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/MilieubelastendeActiviteitMetBeperktEffect</rol:groep>
                <rol:bovenliggendeActiviteit>
-                  <rol:ActiviteitRef xlink:href="nl.imow-gm0299.activiteit.ActInOmgevingsplanHelloDSO"/>
+                  <rol:ActiviteitRef xlink:href="nl.imow-gm0160.activiteit.ActInOmgevingsplanHelloDSO"/>
                </rol:bovenliggendeActiviteit>
             </rol:Activiteit>
          </owObject>
@@ -57,7 +48,7 @@
       <sl:stand>
          <owObject>
             <rol:Activiteit>
-               <rol:identificatie>nl.imow-gm0299.activiteit.ActInOmgevingsplanHelloDSO</rol:identificatie>
+               <rol:identificatie>nl.imow-gm0160.activiteit.ActInOmgevingsplanHelloDSO</rol:identificatie>
                <rol:naam>Activiteit in HelloDSO</rol:naam>
                <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/MilieubelastendeActiviteit</rol:groep>
                <rol:bovenliggendeActiviteit>
@@ -69,16 +60,98 @@
       <sl:stand>
          <owObject>
             <rol:Activiteit>
-               <rol:identificatie>nl.imow-gm0299.activiteit.zwemmen</rol:identificatie>
+               <rol:identificatie>nl.imow-gm0160.activiteit.zwemmen</rol:identificatie>
                <rol:naam>Zwemmen in de buitenlucht</rol:naam>
                <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/MilieubelastendeActiviteit</rol:groep>
                <rol:bovenliggendeActiviteit>
-                  <rol:ActiviteitRef
-                     xlink:href="nl.imow-gm0299.activiteit.ActInOmgevingsplanHelloDSO"/>
+                  <rol:ActiviteitRef xlink:href="nl.imow-gm0160.activiteit.ActInOmgevingsplanHelloDSO"/>
                </rol:bovenliggendeActiviteit>
             </rol:Activiteit>
          </owObject>
       </sl:stand>
-      
+      <sl:stand>
+         <owObject>
+            <rol:Activiteit>
+               <rol:identificatie>nl.imow-gm0160.activiteit.oudeNaam</rol:identificatie>
+               <rol:naam>oude naam</rol:naam>
+               <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/MilieubelastendeActiviteit</rol:groep>
+               <rol:bovenliggendeActiviteit>
+                  <rol:ActiviteitRef xlink:href="nl.imow-gm0160.activiteit.ActInOmgevingsplanHelloDSO"/>
+               </rol:bovenliggendeActiviteit>
+            </rol:Activiteit>
+         </owObject>
+      </sl:stand>
+      <sl:stand>
+         <owObject>
+            <rol:Activiteit>
+               <rol:identificatie>nl.imow-gm0160.activiteit.verwijderdeActiviteit</rol:identificatie>
+               <rol:naam>verwijderde activiteit</rol:naam>
+               <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/MilieubelastendeActiviteit</rol:groep>
+               <rol:bovenliggendeActiviteit>
+                  <rol:ActiviteitRef xlink:href="nl.imow-gm0160.activiteit.ActInOmgevingsplanHelloDSO"/>
+               </rol:bovenliggendeActiviteit>
+            </rol:Activiteit>
+         </owObject>
+      </sl:stand>
+      <sl:stand>
+         <owObject>
+            <rol:Activiteit>
+               <rol:identificatie>nl.imow-gm0160.activiteit.regelkwalificatie</rol:identificatie>
+               <rol:naam>activiteit aangepaste regelkwalificatie</rol:naam>
+               <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/MilieubelastendeActiviteit</rol:groep>
+               <rol:bovenliggendeActiviteit>
+                  <rol:ActiviteitRef xlink:href="nl.imow-gm0160.activiteit.ActInOmgevingsplanHelloDSO"/>
+               </rol:bovenliggendeActiviteit>
+            </rol:Activiteit>
+         </owObject>
+      </sl:stand>
+      <sl:stand>
+         <owObject>
+            <rol:Activiteit>
+               <rol:identificatie>nl.imow-gm0160.activiteit.locatieNaam</rol:identificatie>
+               <rol:naam>activiteit aangepaste locatienaam</rol:naam>
+               <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/MilieubelastendeActiviteit</rol:groep>
+               <rol:bovenliggendeActiviteit>
+                  <rol:ActiviteitRef xlink:href="nl.imow-gm0160.activiteit.ActInOmgevingsplanHelloDSO"/>
+               </rol:bovenliggendeActiviteit>
+            </rol:Activiteit>
+         </owObject>
+      </sl:stand>
+      <sl:stand>
+         <owObject>
+            <rol:Activiteit>
+               <rol:identificatie>nl.imow-gm0160.activiteit.locatieVerwijderd</rol:identificatie>
+               <rol:naam>activiteit locatie verwijderd</rol:naam>
+               <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/MilieubelastendeActiviteit</rol:groep>
+               <rol:bovenliggendeActiviteit>
+                  <rol:ActiviteitRef xlink:href="nl.imow-gm0160.activiteit.ActInOmgevingsplanHelloDSO"/>
+               </rol:bovenliggendeActiviteit>
+            </rol:Activiteit>
+         </owObject>
+      </sl:stand>
+      <sl:stand>
+         <owObject>
+            <rol:Activiteit>
+               <rol:identificatie>nl.imow-gm0160.activiteit.locatieToegevoegd</rol:identificatie>
+               <rol:naam>activiteit locatie toegevoegd</rol:naam>
+               <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/MilieubelastendeActiviteit</rol:groep>
+               <rol:bovenliggendeActiviteit>
+                  <rol:ActiviteitRef xlink:href="nl.imow-gm0160.activiteit.ActInOmgevingsplanHelloDSO"/>
+               </rol:bovenliggendeActiviteit>
+            </rol:Activiteit>
+         </owObject>
+      </sl:stand>
+      <sl:stand>
+         <owObject>
+            <rol:Activiteit>
+               <rol:identificatie>nl.imow-gm0160.activiteit.locatieGewijzigd</rol:identificatie>
+               <rol:naam>activiteit locatie gewijzigd</rol:naam>
+               <rol:groep>http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/MilieubelastendeActiviteit</rol:groep>
+               <rol:bovenliggendeActiviteit>
+                  <rol:ActiviteitRef xlink:href="nl.imow-gm0160.activiteit.ActInOmgevingsplanHelloDSO"/>
+               </rol:bovenliggendeActiviteit>
+            </rol:Activiteit>
+         </owObject>
+      </sl:stand>
    </sl:standBestand>
 </owBestand>

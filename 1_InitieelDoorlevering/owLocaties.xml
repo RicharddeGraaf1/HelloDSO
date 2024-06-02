@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<owBestand xmlns="http://www.geostandaarden.nl/imow/bestanden/deelbestand"  
-   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink"
-   xmlns:ga="http://www.geostandaarden.nl/imow/gebiedsaanwijzing"
-   xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:l="http://www.geostandaarden.nl/imow/locatie"
-   xmlns:da="http://www.geostandaarden.nl/imow/datatypenalgemeen"
-   xmlns:sl="http://www.geostandaarden.nl/bestanden-ow/standlevering-generiek"  
-   xmlns:rol="http://www.geostandaarden.nl/imow/regelsoplocatie"
-   xmlns:r="http://www.geostandaarden.nl/imow/regels"
-   xmlns:ow="http://www.geostandaarden.nl/imow/owobject">
+<owBestand xsi:schemaLocation="http://www.geostandaarden.nl/imow/bestanden/deelbestand https://register.geostandaarden.nl/xmlschema/tpod/v2.0.0/bestanden-ow/deelbestand-ow/IMOW_Deelbestand.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ga="http://www.geostandaarden.nl/imow/gebiedsaanwijzing" xmlns:da="http://www.geostandaarden.nl/imow/datatypenalgemeen" xmlns:sl="http://www.geostandaarden.nl/bestanden-ow/standlevering-generiek" xmlns="http://www.geostandaarden.nl/imow/bestanden/deelbestand" xmlns:ow="http://www.geostandaarden.nl/imow/owobject" xmlns:rol="http://www.geostandaarden.nl/imow/regelsoplocatie" xmlns:rg="http://www.geostandaarden.nl/imow/regelingsgebied" xmlns:p="http://www.geostandaarden.nl/imow/pons" xmlns:l="http://www.geostandaarden.nl/imow/locatie" xmlns:r="http://www.geostandaarden.nl/imow/regels" xmlns:k="http://www.geostandaarden.nl/imow/kaart" xmlns:s="http://www.geostandaarden.nl/imow/symbolisatie" xmlns:op="http://www.geostandaarden.nl/imow/opobject" xmlns:vt="http://www.geostandaarden.nl/imow/vrijetekst">
    <sl:standBestand>
       <sl:dataset>HelloDSOData</sl:dataset>
       <sl:inhoud>
@@ -22,10 +14,10 @@
       <sl:stand>
          <owObject>
             <l:Gebiedengroep>
-               <l:identificatie>nl.imow-gm0299.gebiedengroep.Horecagebieden</l:identificatie>
+               <l:identificatie>nl.imow-gm0160.gebiedengroep.Horecagebieden</l:identificatie>
                <l:noemer>Horecagebieden</l:noemer>
                <l:groepselement>
-                  <l:GebiedRef xlink:href="nl.imow-gm0299.gebied.BinnenstadWest"/>
+                  <l:GebiedRef xlink:href="nl.imow-gm0160.gebied.BinnenstadWest"/>
                </l:groepselement>
             </l:Gebiedengroep>
          </owObject>
@@ -33,11 +25,11 @@
       <sl:stand>
          <owObject>
             <l:Gebied>
-               <l:identificatie>nl.imow-gm0299.gebied.BinnenstadWest</l:identificatie>
+               <l:identificatie>nl.imow-gm0160.gebied.BinnenstadWest</l:identificatie>
                <!-- voorkom 'Naam onbekend' in de viewer en geef een noemer -->
                <l:noemer>Binnenstad centrum West</l:noemer>
                <l:geometrie>
-                  <l:GeometrieRef xlink:href="bbbbbbbb-0000-eeee-ffff-b0ef99250001"/>
+                  <l:GeometrieRef xlink:href="face0ddf-f51f-41d2-951f-2919932bcaaf"/>
                </l:geometrie>
             </l:Gebied>
          </owObject>
@@ -45,11 +37,11 @@
       <sl:stand>
          <owObject>
             <l:Gebied>
-               <l:identificatie>nl.imow-gm0299.gebied.Zuiderburen</l:identificatie>
+               <l:identificatie>nl.imow-gm0160.gebied.Zuiderburen</l:identificatie>
                <!-- voorkom 'Naam onbekend' in de viewer en geef een noemer -->
                <l:noemer>Zuiderburen</l:noemer>
                <l:geometrie>
-                  <l:GeometrieRef xlink:href="bbbbbbbb-0000-eeee-ffff-b0ef99250002"/>
+                  <l:GeometrieRef xlink:href="fa3674bd-e282-4ad0-9bb1-0ffb1068daf9"/>
                </l:geometrie>
             </l:Gebied>
          </owObject>
@@ -57,11 +49,11 @@
       <sl:stand>
          <owObject>
             <l:Gebied>
-               <l:identificatie>nl.imow-gm0299.gebied.Noordereilanden</l:identificatie>
+               <l:identificatie>nl.imow-gm0160.gebied.Noordereilanden</l:identificatie>
                <!-- voorkom 'Naam onbekend' in de viewer en geef een noemer -->
                <l:noemer>Noordereilanden</l:noemer>
                <l:geometrie>
-                  <l:GeometrieRef xlink:href="bbbbbbbb-0000-eeee-ffff-b0ef99250003"/>
+                  <l:GeometrieRef xlink:href="ef485af8-85a5-4f16-8eec-7187dadec8cb"/>
                </l:geometrie>
             </l:Gebied>
          </owObject>
@@ -69,27 +61,127 @@
       <sl:stand>
          <owObject>
             <l:Gebied>
-               <l:identificatie>nl.imow-gm0299.gebied.Oostelijkehavens</l:identificatie>
+               <l:identificatie>nl.imow-gm0160.gebied.Oostelijkehavens</l:identificatie>
                <!-- voorkom 'Naam onbekend' in de viewer en geef een noemer -->
                <l:noemer>Oostelijke havens</l:noemer>
                <l:geometrie>
-                  <l:GeometrieRef xlink:href="bbbbbbbb-0000-eeee-ffff-b0ef99250004"/>
+                  <l:GeometrieRef xlink:href="e4b3bd7d-f403-45f2-bb9e-f0e5d0de8451"/>
                </l:geometrie>
             </l:Gebied>
+         </owObject>
+      </sl:stand>
+      <sl:stand>
+         <owObject>
+            <l:Gebied>
+               <l:identificatie>nl.imow-gm0160.gebied.winkelgebied</l:identificatie>
+               <l:noemer>winkelgebied</l:noemer>
+               <l:geometrie>
+                  <l:GeometrieRef xlink:href="ede6b1c0-c832-40af-abdb-efe2bcd616b2"/>
+               </l:geometrie>
+            </l:Gebied>
+         </owObject>
+      </sl:stand>
+      <sl:stand>
+         <owObject>
+            <l:Gebied>
+               <l:identificatie>nl.imow-gm0160.gebied.industriezone</l:identificatie>
+               <l:noemer>industriezone</l:noemer>
+               <l:geometrie>
+                  <l:GeometrieRef xlink:href="f44b0bc3-bc9c-4dd8-aafd-598ff79b67e1"/>
+               </l:geometrie>
+            </l:Gebied>
+         </owObject>
+      </sl:stand>
+      <sl:stand>
+         <owObject>
+            <l:Gebied>
+               <l:identificatie>nl.imow-gm0160.gebied.industriegebied</l:identificatie>
+               <l:noemer>industriegebied</l:noemer>
+               <l:geometrie>
+                  <l:GeometrieRef xlink:href="d6094613-13c3-4063-9182-da718a64dfff"/>
+               </l:geometrie>
+            </l:Gebied>
+         </owObject>
+      </sl:stand>
+      <sl:stand>
+         <owObject>
+            <l:Gebied>
+               <l:identificatie>nl.imow-gm0160.gebied.industriegebied2</l:identificatie>
+               <l:noemer>industriegebied2</l:noemer>
+               <l:geometrie>
+                  <l:GeometrieRef xlink:href="458df587-4a5f-4a41-bd41-77aaa890e85d"/>
+               </l:geometrie>
+            </l:Gebied>
+         </owObject>
+      </sl:stand>
+      <sl:stand>
+         <owObject>
+            <l:Gebiedengroep>
+               <l:identificatie>nl.imow-gm0160.gebiedengroep.industriegebiedGroep</l:identificatie>
+               <l:noemer>industriegebied (groep)</l:noemer>
+               <l:groepselement>
+                  <l:GebiedRef xlink:href="nl.imow-gm0160.gebied.industriegebied"/>
+                  <l:GebiedRef xlink:href="nl.imow-gm0160.gebied.industriegebied2"/>
+               </l:groepselement>
+            </l:Gebiedengroep>
          </owObject>
       </sl:stand>
       <sl:stand>
          <owObject>
             <l:Ambtsgebied>
-               <l:identificatie>nl.imow-gm0299.ambtsgebied.9999999999</l:identificatie>
+               <l:identificatie>nl.imow-gm0160.ambtsgebied.9999999998</l:identificatie>
                <l:bestuurlijkeGrenzenVerwijzing>
                   <l:BestuurlijkeGrenzenVerwijzing>
-                     <l:bestuurlijkeGrenzenID>GM0299</l:bestuurlijkeGrenzenID>
+                     <l:bestuurlijkeGrenzenID>GM0160</l:bestuurlijkeGrenzenID>
                      <l:domein>NL.BI.BestuurlijkGebied</l:domein>
                      <l:geldigOp>2022-03-01</l:geldigOp>
                   </l:BestuurlijkeGrenzenVerwijzing>
                </l:bestuurlijkeGrenzenVerwijzing>
             </l:Ambtsgebied>
+         </owObject>
+      </sl:stand>
+      <sl:stand>
+         <owObject>
+              <l:Gebied>
+                 <l:identificatie>nl.imow-gm0160.gebied.oudeNaam</l:identificatie>
+                 <l:noemer>oude naam</l:noemer>
+                 <l:geometrie>
+                    <l:GeometrieRef xlink:href="ce8e7188-e8f2-4b6a-8fc7-2b6f685fdff7"/>
+                 </l:geometrie>
+              </l:Gebied>
+         </owObject>
+      </sl:stand>
+      <sl:stand>
+         <owObject>
+            <l:Gebied>
+               <l:identificatie>nl.imow-gm0160.gebied.verwijderdeLocatie2</l:identificatie>
+               <l:noemer>verwijderde locatie 2</l:noemer>
+               <l:geometrie>
+                  <l:GeometrieRef xlink:href="89609b51-87e4-4fc0-89d9-748919b28e0a"/>
+               </l:geometrie>
+            </l:Gebied>
+         </owObject>
+      </sl:stand>
+      <sl:stand>
+         <owObject>
+            <l:Gebied>
+               <l:identificatie>nl.imow-gm0160.gebied.Locatie4</l:identificatie>
+               <l:noemer>Locatie 4</l:noemer>
+               <l:geometrie>
+                  <l:GeometrieRef xlink:href="d6e73dbc-3bec-41bd-88ea-c08fb06d3f9d"/>
+               </l:geometrie>
+            </l:Gebied>
+         </owObject>
+      </sl:stand>
+      <sl:stand>
+         <owObject>
+            <l:Gebied>
+               <l:identificatie>nl.imow-gm0160.gebied.naam5</l:identificatie>
+               <l:noemer>nieuwe naam locatie 5</l:noemer>
+               <l:geometrie>
+                  <l:GeometrieRef xlink:href="853b580f-c02c-4cbc-a2b9-eb0668a83c05"/>
+               </l:geometrie>
+            </l:Gebied>
          </owObject>
       </sl:stand>
    </sl:standBestand>

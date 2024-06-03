@@ -7,6 +7,7 @@
             <sl:leveringsId>HelloDSO_Inititeel_001</sl:leveringsId>
             <sl:objectTypen>
                 <sl:objectType>Omgevingsnorm</sl:objectType>
+                <sl:objectType>Omgevingswaarde</sl:objectType>
             </sl:objectTypen>
         </sl:inhoud>
         <sl:stand>
@@ -14,24 +15,24 @@
             <ow-dc:owObject>
                 <rol:Omgevingsnorm>
                     <ow:procedurestatus>ontwerp</ow:procedurestatus>
-                    <rol:identificatie>nl.imow-gm0299.omgevingsnorm.Bouwhoogte</rol:identificatie>
+                    <rol:identificatie>nl.imow-gm0160.omgevingsnorm.Bouwhoogte</rol:identificatie>
                     <rol:naam>Bouwhoogte</rol:naam>
                     <rol:type>http://standaarden.omgevingswet.overheid.nl/typenorm/id/concept/MaximumBouwhoogte</rol:type>
                     <rol:eenheid>http://standaarden.omgevingswet.overheid.nl/eenheid/id/concept/Meter</rol:eenheid>
                     <rol:normwaarde>
                         <rol:Normwaarde>
-                            <rol:identificatie>nl.imow-gm0299.normwaarde.10meter</rol:identificatie>
+                            <rol:identificatie>nl.imow-gm0160.normwaarde.10meter</rol:identificatie>
                             <rol:kwantitatieveWaarde>10</rol:kwantitatieveWaarde>
                             <rol:locatieaanduiding>
-                                <l:LocatieRef xlink:href="nl.imow-gm0299.gebied.BinnenstadWest"/>
+                                <l:LocatieRef xlink:href="nl.imow-gm0160.gebied.BinnenstadWest"/>
                             </rol:locatieaanduiding>
                         </rol:Normwaarde>
                         <rol:Normwaarde>
-                            <rol:identificatie>nl.imow-gm0299.normwaarde.7meter</rol:identificatie>
+                            <rol:identificatie>nl.imow-gm0160.normwaarde.7meter</rol:identificatie>
                             <rol:kwantitatieveWaarde>7</rol:kwantitatieveWaarde>
                             <rol:locatieaanduiding>
-                                <l:LocatieRef xlink:href="nl.imow-gm0299.gebied.Zuiderburen"/>
-                                <l:LocatieRef xlink:href="nl.imow-gm0299.gebied.Noordereilanden"/>
+                                <l:LocatieRef xlink:href="nl.imow-gm0160.gebied.Zuiderburen"/>
+                                <l:LocatieRef xlink:href="nl.imow-gm0160.gebied.Noordereilanden"/>
                             </rol:locatieaanduiding>
                         </rol:Normwaarde>
                     </rol:normwaarde>
@@ -44,16 +45,187 @@
             <ow-dc:owObject>
                 <rol:Omgevingsnorm>
                     <ow:procedurestatus>ontwerp</ow:procedurestatus>
-                    <rol:identificatie>nl.imow-gm0299.omgevingsnorm.Laagbouwhoogte</rol:identificatie>
+                    <rol:identificatie>nl.imow-gm0160.omgevingsnorm.Laagbouwhoogte</rol:identificatie>
                     <rol:naam>Laagbouwhoogte</rol:naam>
                     <rol:type>http://standaarden.omgevingswet.overheid.nl/typenorm/id/concept/MaximumBouwhoogte</rol:type>
                     <rol:eenheid>http://standaarden.omgevingswet.overheid.nl/eenheid/id/concept/Meter</rol:eenheid>
                     <rol:normwaarde>
                         <rol:Normwaarde>
-                            <rol:identificatie>nl.imow-gm0299.normwaarde.3meter</rol:identificatie>
-                            <rol:kwantitatieveWaarde>3</rol:kwantitatieveWaarde>
+                            <rol:identificatie>nl.imow-gm0160.normwaarde.3meter</rol:identificatie>
+                            <rol:kwantitatieveWaarde>2</rol:kwantitatieveWaarde>
                             <rol:locatieaanduiding>
-                                <l:LocatieRef xlink:href="nl.imow-gm0299.gebied.Zuidwesterburen"/>
+                                <l:LocatieRef xlink:href="nl.imow-gm0160.gebied.Zuiderburen"/>
+                            </rol:locatieaanduiding>
+                        </rol:Normwaarde>
+                    </rol:normwaarde>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/omgevingsnorm/id/concept/Bouwaanduiding</rol:groep>
+                </rol:Omgevingsnorm>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Omgevingsnorm>
+                    <ow:procedurestatus>ontwerp</ow:procedurestatus>
+                    <rol:identificatie>nl.imow-gm0160.omgevingsnorm.oudeNaam</rol:identificatie>
+                    <rol:naam>nieuwe naam</rol:naam>
+                    <rol:type>http://standaarden.omgevingswet.overheid.nl/typenorm/id/concept/MaximumBouwhoogte</rol:type>
+                    <rol:eenheid>http://standaarden.omgevingswet.overheid.nl/eenheid/id/concept/Meter</rol:eenheid>
+                    <rol:normwaarde>
+                        <rol:Normwaarde>
+                            <rol:identificatie>nl.imow-gm0160.normwaarde.6meterz</rol:identificatie>
+                            <rol:kwantitatieveWaarde>6</rol:kwantitatieveWaarde>
+                            <rol:locatieaanduiding>
+                                <l:LocatieRef xlink:href="nl.imow-gm0160.gebied.industriegebied2"/>
+                            </rol:locatieaanduiding>
+                        </rol:Normwaarde>
+                    </rol:normwaarde>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/omgevingsnorm/id/concept/Bouwaanduiding</rol:groep>
+                </rol:Omgevingsnorm>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Omgevingsnorm>
+                    <ow:status>beëindigen</ow:status>
+                    <ow:procedurestatus>ontwerp</ow:procedurestatus>
+                    <rol:identificatie>nl.imow-gm0160.omgevingsnorm.verwijderdeNorm</rol:identificatie>
+                    <rol:naam>Omgevingsnorm</rol:naam>
+                    <rol:type>http://standaarden.omgevingswet.overheid.nl/typenorm/id/concept/MaximumBouwhoogte</rol:type>
+                    <rol:eenheid>http://standaarden.omgevingswet.overheid.nl/eenheid/id/concept/Meter</rol:eenheid>
+                    <rol:normwaarde>
+                        <rol:Normwaarde>
+                            <rol:identificatie>nl.imow-gm0160.normwaarde.1m</rol:identificatie>
+                            <rol:kwantitatieveWaarde>1</rol:kwantitatieveWaarde>
+                            <rol:locatieaanduiding>
+                                <l:LocatieRef xlink:href="nl.imow-gm0160.gebied.industriegebied2"/>
+                            </rol:locatieaanduiding>
+                        </rol:Normwaarde>
+                    </rol:normwaarde>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/omgevingsnorm/id/concept/Bouwaanduiding</rol:groep>
+                </rol:Omgevingsnorm>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Omgevingsnorm>
+                    <ow:procedurestatus>ontwerp</ow:procedurestatus>
+                    <rol:identificatie>nl.imow-gm0160.omgevingsnorm.toegevoegdeNorm</rol:identificatie>
+                    <rol:naam>Omgevingsnorm</rol:naam>
+                    <rol:type>http://standaarden.omgevingswet.overheid.nl/typenorm/id/concept/MaximumBouwhoogte</rol:type>
+                    <rol:eenheid>http://standaarden.omgevingswet.overheid.nl/eenheid/id/concept/Meter</rol:eenheid>
+                    <rol:normwaarde>
+                        <rol:Normwaarde>
+                            <rol:identificatie>nl.imow-gm0160.normwaarde.1m</rol:identificatie>
+                            <rol:kwantitatieveWaarde>1</rol:kwantitatieveWaarde>
+                            <rol:locatieaanduiding>
+                                <l:LocatieRef xlink:href="nl.imow-gm0160.gebied.industriegebied2"/>
+                            </rol:locatieaanduiding>
+                        </rol:Normwaarde>
+                    </rol:normwaarde>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/omgevingsnorm/id/concept/Bouwaanduiding</rol:groep>
+                </rol:Omgevingsnorm>
+            </ow-dc:owObject>
+        </sl:stand>
+        <!--hier beginnen de omgevingswaarden-->
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Omgevingswaarde>
+                    <ow:procedurestatus>ontwerp</ow:procedurestatus>
+                    <rol:identificatie>nl.imow-gm0160.omgevingswaarde.oudeNaam</rol:identificatie>
+                    <rol:naam>nieuwe naam</rol:naam>
+                    <rol:type>http://standaarden.omgevingswet.overheid.nl/typenorm/id/concept/MaximumBouwhoogte</rol:type>
+                    <rol:eenheid>http://standaarden.omgevingswet.overheid.nl/eenheid/id/concept/Meter</rol:eenheid>
+                    <rol:normwaarde>
+                        <rol:Normwaarde>
+                            <rol:identificatie>nl.imow-gm0160.normwaarde.6metertjes</rol:identificatie>
+                            <rol:kwantitatieveWaarde>6</rol:kwantitatieveWaarde>
+                            <rol:locatieaanduiding>
+                                <l:LocatieRef xlink:href="nl.imow-gm0160.gebied.industriegebied2"/>
+                            </rol:locatieaanduiding>
+                        </rol:Normwaarde>
+                    </rol:normwaarde>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/omgevingswaarde/id/concept/Stikstofdepositie</rol:groep>
+                </rol:Omgevingswaarde>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Omgevingswaarde>
+                    <ow:status>beëindigen</ow:status>
+                    <ow:procedurestatus>ontwerp</ow:procedurestatus>
+                    <rol:identificatie>nl.imow-gm0160.omgevingswaarde.verwijderdeNorm</rol:identificatie>
+                    <rol:naam>Omgevingswaarde</rol:naam>
+                    <rol:type>http://standaarden.omgevingswet.overheid.nl/typenorm/id/concept/NogToeTeVoegen</rol:type>
+                    <rol:eenheid>http://standaarden.omgevingswet.overheid.nl/eenheid/id/concept/MicrogramPerKubiekeMeter</rol:eenheid>
+                    <rol:normwaarde>
+                        <rol:Normwaarde>
+                            <rol:identificatie>nl.imow-gm0160.normwaarde.2m</rol:identificatie>
+                            <rol:kwantitatieveWaarde>2</rol:kwantitatieveWaarde>
+                            <rol:locatieaanduiding>
+                                <l:LocatieRef xlink:href="nl.imow-gm0160.gebied.industriegebied2"/>
+                            </rol:locatieaanduiding>
+                        </rol:Normwaarde>
+                    </rol:normwaarde>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/omgevingswaarde/id/concept/Stikstofdepositie</rol:groep>
+                </rol:Omgevingswaarde>
+            </ow-dc:owObject>
+        </sl:stand>
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Omgevingswaarde>
+                    <ow:procedurestatus>ontwerp</ow:procedurestatus>
+                    <rol:identificatie>nl.imow-gm0160.omgevingswaarde.toegevoegdeNorm</rol:identificatie>
+                    <rol:naam>Omgevingswaarde</rol:naam>
+                    <rol:type>http://standaarden.omgevingswet.overheid.nl/typenorm/id/concept/NogToeTeVoegen</rol:type>
+                    <rol:eenheid>http://standaarden.omgevingswet.overheid.nl/eenheid/id/concept/MicrogramPerKubiekeMeter</rol:eenheid>
+                    <rol:normwaarde>
+                        <rol:Normwaarde>
+                            <rol:identificatie>nl.imow-gm0160.normwaarde.2m</rol:identificatie>
+                            <rol:kwantitatieveWaarde>2</rol:kwantitatieveWaarde>
+                            <rol:locatieaanduiding>
+                                <l:LocatieRef xlink:href="nl.imow-gm0160.gebied.industriegebied2"/>
+                            </rol:locatieaanduiding>
+                        </rol:Normwaarde>
+                    </rol:normwaarde>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/omgevingswaarde/id/concept/Stikstofdepositie</rol:groep>
+                </rol:Omgevingswaarde>
+            </ow-dc:owObject>
+        </sl:stand>
+        <!--waarde in regeltekst-->
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Omgevingsnorm>
+                    <ow:procedurestatus>ontwerp</ow:procedurestatus>
+                    <rol:identificatie>nl.imow-gm0160.omgevingsnorm.waardeInRegeltekst</rol:identificatie>
+                    <rol:naam>Omgevingsnorm</rol:naam>
+                    <rol:type>http://standaarden.omgevingswet.overheid.nl/typenorm/id/concept/MaximumBouwhoogte</rol:type>
+                    <rol:normwaarde>
+                        <rol:Normwaarde>
+                            <rol:identificatie>nl.imow-gm0160.normwaarde.waardeInRegeltekst</rol:identificatie>
+                            <rol:waardeInRegeltekst>waarde staat in regeltekst</rol:waardeInRegeltekst>
+                            <rol:locatieaanduiding>
+                                <l:LocatieRef xlink:href="nl.imow-gm0160.gebied.winkelgebied"/>
+                            </rol:locatieaanduiding>
+                        </rol:Normwaarde>
+                    </rol:normwaarde>
+                    <rol:groep>http://standaarden.omgevingswet.overheid.nl/omgevingsnorm/id/concept/ExterneVeiligheid</rol:groep>
+                </rol:Omgevingsnorm>
+            </ow-dc:owObject>
+        </sl:stand>
+        <!--kwalitatieve norm-->
+        <sl:stand>
+            <ow-dc:owObject>
+                <rol:Omgevingsnorm>
+                    <ow:procedurestatus>ontwerp</ow:procedurestatus>
+                    <rol:identificatie>nl.imow-gm0160.omgevingsnorm.kwalitatief</rol:identificatie>
+                    <rol:naam>Omgevingsnorm</rol:naam>
+                    <rol:type>http://standaarden.omgevingswet.overheid.nl/typenorm/id/concept/MaximumBouwhoogte</rol:type>
+                    <rol:normwaarde>
+                        <rol:Normwaarde>
+                            <rol:identificatie>nl.imow-gm0160.normwaarde.kwalitatief</rol:identificatie>
+                            <rol:kwalitatieveWaarde>gewoon heel erg mooi</rol:kwalitatieveWaarde>
+                            <rol:locatieaanduiding>
+                                <l:LocatieRef xlink:href="nl.imow-gm0160.gebied.winkelgebied"/>
                             </rol:locatieaanduiding>
                         </rol:Normwaarde>
                     </rol:normwaarde>
@@ -63,5 +235,3 @@
         </sl:stand>
     </sl:standBestand>
 </ow-dc:owBestand>
-
-        

@@ -1,370 +1,429 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<lvbbu:UitleveringProefversieBesluit
-    xmlns:lvbbu="https://standaarden.overheid.nl/lvbb/stop/uitlevering/" schemaversie="1.2.0">
-    <ExpressionIdentificatie xmlns="https://standaarden.overheid.nl/stop/imop/data/">
-        <FRBRWork>/akn/nl/bill/gm0299/2023/Omgevingsplan-HelloDSO</FRBRWork>
-        <FRBRExpression>/akn/nl/act/gm0299/2023/Omgevingsplan-HelloDSO_Ontwerp1</FRBRExpression>
-        <soortWork>/join/id/stop/work_003</soortWork>
-    </ExpressionIdentificatie>
-    <Procedureverloop xmlns="https://standaarden.overheid.nl/stop/imop/data/">
-        <bekendOp>2024-04-11</bekendOp>
-        <ontvangenOp>2024-04-11</ontvangenOp>
-        <procedurestappen>
-            <Procedurestap>
-                <soortStap>/join/id/stop/procedure/stap_002</soortStap>
-                <voltooidOp>2024-04-11</voltooidOp>
-            </Procedurestap>
-        </procedurestappen>
-    </Procedureverloop>
-    <lvbbu:Proefversies>
-        <bekendOp xmlns="https://standaarden.overheid.nl/stop/imop/consolidatie/"
-            >2024-04-11</bekendOp>
-        <lvbbu:Proefversie>
-            <gerealiseerdeDoelen xmlns="https://standaarden.overheid.nl/stop/imop/consolidatie/">
-                <doel>/join/id/proces/gm0299/2022/Omgevingsplan-HelloDSO</doel>
-                <doel>/join/id/proces/gm0299/2023/Omgevingsplan-HelloDSO_Ontwerpwijziging1</doel>
-            </gerealiseerdeDoelen>
-            <instrumentVersie xmlns="https://standaarden.overheid.nl/stop/imop/consolidatie/"
-                >/akn/nl/act/gm0299/2023/Omgevingsplan-HelloDSO/nld@2;ontwerp</instrumentVersie>
-        </lvbbu:Proefversie>
-    </lvbbu:Proefversies>
-    <lvbbu:RegelingVersie>
-        <ExpressionIdentificatie xmlns="https://standaarden.overheid.nl/stop/imop/data/">
-            <FRBRWork>/akn/nl/act/gm0299/2023/Omgevingsplan-HelloDSO</FRBRWork>
-            <FRBRExpression>/akn/nl/act/gm0299/2023/Omgevingsplan-HelloDSO/nld@2;ontwerp</FRBRExpression>
-            <soortWork>/join/id/stop/work_019</soortWork>
-        </ExpressionIdentificatie>
-        <RegelingVersieMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
-            <versienummer>2</versienummer>
-        </RegelingVersieMetadata>
-        <RegelingCompact xmlns="https://standaarden.overheid.nl/stop/imop/tekst/">
-            <RegelingOpschrift eId="longTitle" wId="longTitle">
-                <Al>Ontwerpversie uitbreiding "Voorbeeldregels Hello DSO" van de gemeente Hello</Al>
-            </RegelingOpschrift>
-            <Lichaam wId="body" eId="body">
-                <Hoofdstuk wId="gm0299_v1__chp_0" eId="chp_0">
-                    <Kop>
-                        <Label>Hoofdstuk</Label>
-                        <Nummer>0</Nummer>
-                        <Opschrift>Over dit omgevingsplan</Opschrift>
-                    </Kop>
-                    <Artikel eId="chp_0__art_0.1" wId="gm0299_v1__chp_0__art_0.1">
-                        <Kop>
-                            <Label>Artikel</Label>
-                            <Nummer>0.1</Nummer>
-                            <Opschrift>Toepassingsgebied</Opschrift>
-                        </Kop>
-                        <Inhoud>
-                            <Al><IntRef ref="cmp_I">Bijlage I</IntRef> bij dit omgevingsplan bevat begripsbepalingen voor de toepassing van dit omgevingsplan.</Al>
-                        </Inhoud>
-                    </Artikel>
-                </Hoofdstuk>
-                <Hoofdstuk eId="chp_1" wId="gm0299_v1__chp_1">
-                    <Kop>
-                        <Label><VerwijderdeTekst>HOOFDSTUK</VerwijderdeTekst><NieuweTekst>Hoofdstuk</NieuweTekst></Label>
-                        <Nummer>1</Nummer>
-                        <Opschrift><VerwijderdeTekst>ALGEMENE BEPALINGEN</VerwijderdeTekst><NieuweTekst>Algemene
-                            bepalingen</NieuweTekst></Opschrift>
-                    </Kop>
-                    <Artikel wId="gm0299_v1__chp_1__art_1.1" eId="chp_1__art_1.1">
-                        <Kop>
-                            <Label>Artikel</Label>
-                            <Nummer>1.1</Nummer>
-                            <Opschrift>Begripsbepalingen</Opschrift>
-                        </Kop>
-                        <Lid wId="gm0299_v1__chp_1__art_1.1__para_1" eId="chp_1__art_1.1__para_1">
-                            <LidNummer>1.</LidNummer>
-                            <Inhoud>
-                                <Al>Begripsbepalingen die, op de dag van de inwerkingtreding van de Omgevingswet, zijn
-                                    opgenomen in de bijlage bij de Omgevingswet en in bijlage I bij het Besluit activiteiten
-                                    leefomgeving, bijlage I bij het Besluit bouwwerken leefomgeving, bijlage I bij het
-                                    Besluit kwaliteit leefomgeving, bijlage I bij het Omgevingsbesluit en bijlage I bij de
-                                    Omgevingsregeling, zijn van toepassing op dit omgevingsplan.</Al>
-                            </Inhoud>
-                        </Lid>
-                        <Lid wId="gm0299_v1__chp_1__art_1.1__para_2" eId="chp_1__art_1.1__para_2">
-                            <LidNummer>2.</LidNummer>
-                            <Inhoud>
-                                <Al>Vanaf de datum van inwerkingtreding maakt <IntIoRef eId="chp_1_art_1.1__ref_1"
-                                    wId="gm0299_v1__chp_1_art_1.1__ref_1"
-                                    ref="gm0299_v1__cmp_I__content_o_1__list_o_1__item_o_3__ref_o_1"
-                                    ><VerwijderdeTekst>Noordereilanden</VerwijderdeTekst><NieuweTekst>Noorderburen</NieuweTekst></IntIoRef>
-                                    <NieuweTekst>(voorheen bekend als Noordereilanden) </NieuweTekst>deel uit van het
-                                    ambtsgebied.</Al>
-                            </Inhoud>
-                        </Lid>
-                        <Lid wId="gm0299_v1__chp_1__art_1.1__para_3" eId="chp_1__art_1.1__para_3">
-                            <LidNummer>3.</LidNummer>
-                            <Inhoud>
-                                <Al wijzigactie="verwijder">Tot de kustgebieden in dit omgevingsplan moeten worden
-                                    gerekend: <IntIoRef wId="gm0299_v1__chp_1_art_1.1__ref_2_inst2"
-                                        eId="chp_1_art_1.1__ref_2_inst2"
-                                        ref="gm0299_v1__cmp_I__content_o_1__list_o_1__item_o_2__ref_o_1"
-                                        >Zuiderburen</IntIoRef> en <IntIoRef wId="gm0299_v1__chp_1_art1.1__ref_3_inst2"
-                                            eId="chp_1_art1.1__ref_3_inst2"
-                                            ref="gm0299_v1__cmp_I__content_o_1__list_o_1__item_o_3__ref_o_1"
-                                            >Noordereilanden</IntIoRef></Al>
-                                <Al wijzigactie="voegtoe">Tot de stiltegebieden in dit omgevingsplan moeten worden
-                                    gerekend: <IntIoRef wId="gm0299_v1__chp_1_art_1.1__ref_2" eId="chp_1_art_1.1__ref_2"
-                                        ref="gm0299_v1__cmp_I__content_o_1__list_o_1__item_o_2__ref_o_1"
-                                        >Zuiderburen</IntIoRef> (inclusief het zuidboveneiland) en <IntIoRef
-                                            wId="gm0299_v1__chp_1_art1.1__ref_3" eId="chp_1_art1.1__ref_3"
-                                            ref="gm0299_v1__cmp_I__content_o_1__list_o_1__item_o_3__ref_o_1"
-                                            >Noorderburen</IntIoRef> (voorheen bekend als Noordereilanden)</Al>
-                            </Inhoud>
-                        </Lid>
-                        <Lid wId="gm0299_v1__chp_1__art_1.1__para_4" eId="chp_1__art_1.1__para_4">
-                            <LidNummer>4.</LidNummer>
-                            <Inhoud>
-                                <Al>Het havengebied in dit omgevingsplan omvat de <IntIoRef eId="chp_1_art1.1__ref_4"
-                                    ref="gm0299_v1__cmp_I__content_o_1__list_o_1__item_o_1__ref_o_1"
-                                    wId="gm0299_v1__chp_1_art1.1__ref_4">Oostelijke
-                                    <VerwijderdeTekst>havens</VerwijderdeTekst><NieuweTekst>havenszijde</NieuweTekst></IntIoRef>.</Al>
-                            </Inhoud>
-                        </Lid>
-                    </Artikel>
-                </Hoofdstuk>
-                <Hoofdstuk wId="gm0299_v1__chp_2" eId="chp_2">
-                    <Kop>
-                        <Label>Hoofdstuk</Label>
-                        <Nummer>2</Nummer>
-                        <Opschrift>Horeca</Opschrift>
-                    </Kop>
-                    <Artikel wId="gm0299_v1__chp_2__art_2.1" eId="chp_2__art_2.1">
-                        <Kop>
-                            <Label>Artikel</Label>
-                            <Nummer>2.1</Nummer>
-                            <Opschrift>Regels voor horeca</Opschrift>
-                        </Kop>
-                        <Inhoud>
-                            <Al>Het starten van een horecabedrijf is toegestaan in <VerwijderdeTekst>het
-                                horecagebied</VerwijderdeTekst><NieuweTekst><IntIoRef
-                                    wId="gm0299_v1__chp_2_art001__ref_1" eId="chp_2_art001__ref_1"
-                                    ref="gm0299_v1__cmp_I__content_o_1__list_o_1__item_o_1__ref_o_1"
-                                    >Binnenstad West</IntIoRef></NieuweTekst>, mits er voldoende
-                                parkeergelegenheid aanwezig is en er een vergunning is verleend.</Al>
-                        </Inhoud>
-                    </Artikel>
-                    <Artikel wijzigactie="voegtoe" wId="gm0299_v1__chp_2__art_2.2" eId="chp_2__art_2.2">
-                        <Kop>
-                            <Label>Artikel</Label>
-                            <Nummer>2.2</Nummer>
-                            <Opschrift>In het openbaar nuttigen van alcohol</Opschrift>
-                            <Subtitel>Het nuttigen van alcohol in het openbaar buiten de
-                                horecagebouwen</Subtitel>
-                        </Kop>
-                        <Inhoud>
-                            <Al>Het is niet toegestaan om tussen 20:00u en 04:00u de daaropvolgende dag, in
-                                het openbaar alcohol te nuttigen buiten of in de directe omgeving van de
-                                horecagebouwen die zijn gevestigd in de <IntIoRef
-                                    wId="gm0299_v1__chp_2_art002__ref_1" eId="chp_2_art002__ref_1"
-                                    ref="gm0299_v1__cmp_I__content_o_1__list_o_1__item_o_1__ref_o_1"
-                                    >Binnenstad West</IntIoRef>.</Al>
-                        </Inhoud>
-                    </Artikel>
-                </Hoofdstuk>
-                <Hoofdstuk wId="gm0299_v1__chp_3" eId="chp_3">
-                    <Kop>
-                        <Label>Hoofdstuk</Label>
-                        <Nummer>3</Nummer>
-                        <Opschrift>Consumentenvuurwerk</Opschrift>
-                    </Kop>
-                    <Artikel wId="gm0299_v1__chp_3__art_3.1" eId="chp_3__art_3.1">
-                        <Kop>
-                            <Label>Artikel</Label>
-                            <Nummer>3.1</Nummer>
-                            <Opschrift>Regels voor het gebruik van consumentenvuurwerk</Opschrift>
-                        </Kop>
-                        <Inhoud>
-                            <Al>Het is verboden consumentenvuurwerk te gebruiken in <IntIoRef
-                                wId="gm0299_v1__chp_3_art001__ref_1" eId="chp_3_art001__ref_1"
-                                ref="gm0299_v1__cmp_I__content_o_1__list_o_1__item_o_1__ref_o_1"
-                                >Binnenstad West</IntIoRef>, tijdens de jaarwisseling omdat dit gevaar,
-                                schade en overlast veroorzaakt.</Al>
-                            <Al wijzigactie="voegtoe">In het gebied <IntIoRef
-                                wId="gm0299_v1__chp_3_art001__ref_2" eId="chp_3_art003__ref_2"
-                                ref="gm0299_v1__cmp_I__content_o_1__list_o_1__item_o_3__ref_o_1"
-                                >Noordereilanden</IntIoRef> geldt een algeheel verbod om vuurwerk te
-                                gebruiken.</Al>
-                        </Inhoud>
-                    </Artikel>
-                    <Artikel wId="gm0299_v1__chp_3__art_3.2" eId="chp_3__art_3.2">
-                        <Kop>
-                            <Label>Artikel</Label>
-                            <Nummer>3.2</Nummer>
-                            <Opschrift><VerwijderdeTekst>Regels voor het gebruik van
-                                carbidschieten</VerwijderdeTekst><NieuweTekst>In het openbaar nuttigen van
-                                    alcohol</NieuweTekst></Opschrift>
-                            <Subtitel wijzigactie="voegtoe">Het nuttigen van alcohol in het openbaar buiten de
-                                horecagebouwen</Subtitel>
-                        </Kop>
-                        <Inhoud>
-                            <Al wijzigactie="verwijder">Op 31 december van het jaar en tot 1 uur na de jaarwisseling is
-                                carbidschieten toegestaan in het gebied <IntIoRef
-                                    wId="gm0299_v1__chp_3_art002__ref_1_inst2" eId="chp_3_art002__ref_1_inst2"
-                                    ref="gm0299_v1__cmp_I__content_o_1__list_o_1__item_o_2__ref_o_1">Zuiderburen</IntIoRef>,
-                                indien daarvoor vergunning is verleend.</Al>
-                            <Al wijzigactie="voegtoe">Het is niet toegestaan om tussen 20:00u en 04:00u de
-                                daaropvolgende dag, in het openbaar alcohol te nuttigen buiten of in de directe omgeving
-                                van de horecagebouwen die zijn gevestigd in de <IntIoRef
-                                    wId="gm0299_v1__chp_2_art3.2__ref_1" eId="chp_2_art3.2__ref_1"
-                                    ref="gm0299_v1__cmp_I__content_o_1__list_o_1__item_o_1__ref_o_1">Binnenstad
-                                    West</IntIoRef>.</Al>
-                        </Inhoud>
-                    </Artikel>
-                </Hoofdstuk>
-                <Hoofdstuk wId="gm0299_v1__chp_4" eId="chp_4">
-                    <Kop>
-                        <Label>Hoofdstuk</Label>
-                        <Nummer>4</Nummer>
-                        <Opschrift>Bouwen</Opschrift>
-                    </Kop>
-                    <Artikel eId="chp_4__art_4.1" wId="gm0299_v1__chp_4__art_4.1">
-                        <Kop>
-                            <Label>Artikel</Label>
-                            <Nummer>4.1</Nummer>
-                            <Opschrift>Regels voor de maximale bouwhoogte</Opschrift>
-                        </Kop>
-                        <Inhoud>
-                            <Al>De bouwhoogte van een woning is niet hoger dan de ter plaatse van de locatie ‘maximum bouwhoogte’ bepaalde waarde.</Al>
-                        </Inhoud>
-                    </Artikel>
-                </Hoofdstuk>
-                <Hoofdstuk wId="gm0299_v1__chp_5" eId="chp_5">
-                    <Kop>
-                        <Label>Hoofdstuk</Label>
-                        <Nummer>5</Nummer>
-                        <Opschrift>Recreactie</Opschrift>
-                    </Kop>
-                    <Artikel wId="gm0299_v1__chp_5__art_5.1" eId="chp_5__art_5.1">
-                        <Kop>
-                            <Label>Artikel</Label>
-                            <Nummer>5.1</Nummer>
-                            <Opschrift>Regels voor buitenactiviteiten</Opschrift>
-                        </Kop>
-                        <Inhoud>
-                            <Al>Het is verboden om buiten te
-                                <VerwijderdeTekst>zwemmenin</VerwijderdeTekst><NieuweTekst>zwemmen en te sportvissen
-                                    in</NieuweTekst> meren en plassen waar dit niet expliciet via een bord is
-                                toegestaan.</Al>
-                        </Inhoud>
-                    </Artikel>
-                </Hoofdstuk>
-            </Lichaam>
-            <Bijlage wId="gm0299_v1__cmp_I" eId="cmp_I">
-                <Kop>
-                    <Label>Bijlage</Label>
-                    <Nummer>I</Nummer>
-                    <Opschrift>Overzicht Informatieobjecten</Opschrift>
-                </Kop>
-                <Divisietekst wId="gm0299_v1__cmp_I__content_o_1" eId="cmp_I__content_o_1">
-                    <Inhoud>
-                        <Begrippenlijst wId="gm0299_v1__cmp_I__content_o_1__list_o_1"
-                            eId="cmp_I__content_o_1__list_o_1">
-                            <Begrip wId="gm0299_v1__cmp_I__content_o_1__list_o_1__item_o_1"
-                                eId="cmp_I__content_o_1__list_o_1__item_o_1">
-                                <Term>Binnenstad West</Term>
-                                <Definitie>
-                                    <Al><ExtIoRef wId="gm0299_v1__cmp_I__content_o_1__list_o_1__item_o_1__ref_o_1"
-                                        eId="cmp_I__content_o_1__list_o_1__item_o_1__ref_o_1"
-                                        ref="/join/id/regdata/gm0299/2022/1_Binnenstad_West/nld@2023;1"
-                                        >/join/id/regdata/gm0299/2022/1_Binnenstad_West/nld@2023;1</ExtIoRef></Al>
-                                </Definitie>
-                            </Begrip>
-                            <Begrip wId="gm0299_v1__cmp_I__content_o_1__list_o_1__item_o_2"
-                                eId="cmp_I__content_o_1__list_o_1__item_o_2">
-                                <Term>Zuiderburen</Term>
-                                <Definitie>
-                                    <Al><ExtIoRef wId="gm0299_v1__cmp_I__content_o_1__list_o_1__item_o_2__ref_o_1"
-                                        eId="cmp_I__content_o_1__list_o_1__item_o_2__ref_o_1"
-                                        ref="/join/id/regdata/gm0299/2022/1_Zuiderburen/nld@2023;1"
-                                        >/join/id/regdata/gm0299/2022/1_Zuiderburen/nld@2023;1</ExtIoRef></Al>
-                                </Definitie>
-                            </Begrip>
-                            <!--Term EN Definitie zijn teveel veranderd.-->
-                            <Begrip wijzigactie="verwijder"
-                                wId="gm0299_v1__cmp_I__content_o_1__list_o_1__item_o_3_inst2"
-                                eId="cmp_I__content_o_1__list_o_1__item_o_3_inst2">
-                                <Term>Noordereilanden</Term>
-                                <Definitie>
-                                    <Al><ExtIoRef wId="gm0299_v1__cmp_I__content_o_1__list_o_1__item_o_3_inst2__ref_o_1"
-                                        eId="cmp_I__content_o_1__list_o_1__item_o_3_inst2__ref_o_1"
-                                        ref="/join/id/regdata/gm0299/2022/1_Noordereilanden/nld@2023;1"
-                                        >/join/id/regdata/gm0299/2022/1_Noordereilanden/nld@2023;1</ExtIoRef></Al>
-                                </Definitie>
-                            </Begrip>
-                            <Begrip wijzigactie="voegtoe" wId="gm0299_v1__cmp_I__content_o_1__list_o_1__item_o_3"
-                                eId="cmp_I__content_o_1__list_o_1__item_o_3">
-                                <Term>Noorderburen</Term>
-                                <Definitie>
-                                    <Al><ExtIoRef wId="gm0299_v1__cmp_I__content_o_1__list_o_1__item_o_3__ref_o_1"
-                                        eId="cmp_I__content_o_1__list_o_1__item_o_3__ref_o_1"
-                                        ref="/join/id/regdata/gm0299/2022/1_Noorderburen/nld@2023;1"
-                                        >/join/id/regdata/gm0299/2022/1_Noorderburen/nld@2023;1</ExtIoRef></Al>
-                                </Definitie>
-                            </Begrip>
-                            <!--Term EN Definitie zijn teveel veranderd.-->
-                            <Begrip wijzigactie="verwijder"
-                                wId="gm0299_v1__cmp_I__content_o_1__list_o_1__item_o_4_inst2"
-                                eId="cmp_I__content_o_1__list_o_1__item_o_4_inst2">
-                                <Term>Oostelijke havens</Term>
-                                <Definitie>
-                                    <Al><ExtIoRef wId="gm0299_v1__cmp_I__content_o_1__list_o_1__item_o_4_inst2__ref_o_1"
-                                        eId="cmp_I__content_o_1__list_o_1__item_o_4_inst2__ref_o_1"
-                                        ref="/join/id/regdata/gm0299/2022/1_Oostelijkehavens/nld@2023;1"
-                                        >/join/id/regdata/gm0299/2022/1_Oostelijkehavens/nld@2023;1</ExtIoRef></Al>
-                                </Definitie>
-                            </Begrip>
-                            <Begrip wijzigactie="voegtoe" wId="gm0299_v1__cmp_I__content_o_1__list_o_1__item_o_4"
-                                eId="cmp_I__content_o_1__list_o_1__item_o_4">
-                                <Term>Oostelijke havenszijde</Term>
-                                <Definitie>
-                                    <Al><ExtIoRef wId="gm0299_v1__cmp_I__content_o_1__list_o_1__item_o_4__ref_o_1"
-                                        eId="cmp_I__content_o_1__list_o_1__item_o_4__ref_o_1"
-                                        ref="/join/id/regdata/gm0299/2022/1_Oostelijkehavenszijde/nld@2023;1"
-                                        >/join/id/regdata/gm0299/2022/1_Oostelijkehavenszijde/nld@2023;1</ExtIoRef></Al>
-                                </Definitie>
-                            </Begrip>
-                        </Begrippenlijst>
-                    </Inhoud>
-                </Divisietekst>
-            </Bijlage>
-        </RegelingCompact>
-    </lvbbu:RegelingVersie>
-    <lvbbu:AnnotatieBijProefversie>
-        <ExpressionIdentificatie xmlns="https://standaarden.overheid.nl/stop/imop/data/">
-            <FRBRWork>/akn/nl/act/gm0299/2023/Omgevingsplan-HelloDSO</FRBRWork>
-            <FRBRExpression>/akn/nl/act/gm0299/2023/Omgevingsplan-HelloDSO/nld@2;ontwerp</FRBRExpression>
-            <soortWork>/join/id/stop/work_019</soortWork>
-        </ExpressionIdentificatie>       
-        <data:RegelingMetadata xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">
-            <data:heeftCiteertitelInformatie>
-                <data:CiteertitelInformatie>
-                    <data:citeertitel>Ontwerpversie "Voorbeeldregels Hello DSO"</data:citeertitel>
-                    <data:isOfficieel>true</data:isOfficieel>
-                </data:CiteertitelInformatie>
-            </data:heeftCiteertitelInformatie>
-            <data:eindverantwoordelijke>/tooi/id/gemeente/gm0299</data:eindverantwoordelijke>
-            <data:maker>/tooi/id/gemeente/gm0299</data:maker>
-            <data:officieleTitel>Ontwerpomgevingsplan (gemeente Hello - regels)</data:officieleTitel>
-            <data:onderwerpen>
-                <data:onderwerp>/tooi/def/concept/c_9d1917e9</data:onderwerp>
-            </data:onderwerpen>
-            <data:rechtsgebieden>
-                <data:rechtsgebied>/tooi/def/concept/c_8ad05f6d</data:rechtsgebied>
-            </data:rechtsgebieden>
-            <data:soortRegeling>/join/id/stop/regelingtype_003</data:soortRegeling>
-            <data:soortBestuursorgaan>/tooi/def/thes/kern/c_2a7d8663</data:soortBestuursorgaan>
-        </data:RegelingMetadata>
-    </lvbbu:AnnotatieBijProefversie>
-    <lvbbu:AnnotatieBijProefversie>
-        <ExpressionIdentificatie xmlns="https://standaarden.overheid.nl/stop/imop/data/">
-            <FRBRWork>/akn/nl/act/gm0299/2023/Omgevingsplan-HelloDSO</FRBRWork>
-            <FRBRExpression>/akn/nl/act/gm0299/2023/Omgevingsplan-HelloDSO/nld@2;ontwerp</FRBRExpression>
-            <soortWork>/join/id/stop/work_019</soortWork>
-        </ExpressionIdentificatie>
-        <lvbbu:VerrijkingDoorLVBB>
-            <lvbbu:gemuteerdMetVervangRegeling>false</lvbbu:gemuteerdMetVervangRegeling>
-        </lvbbu:VerrijkingDoorLVBB>
-    </lvbbu:AnnotatieBijProefversie>
-</lvbbu:UitleveringProefversieBesluit>
+<lvbbu:UitleveringProefversieBesluit xmlns:lvbbu="https://standaarden.overheid.nl/lvbb/stop/uitlevering/" schemaversie="1.2.0">
+      <data:ExpressionIdentificatie xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">
+	<data:FRBRWork>/akn/nl/bill/gm0160/2024/3521</data:FRBRWork>
+	<data:FRBRExpression>/akn/nl/bill/gm0160/2024/3521/nld@2024</data:FRBRExpression>
+	<data:soortWork>/join/id/stop/work_003</data:soortWork>
+      </data:ExpressionIdentificatie>
+      <data:Procedureverloop xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">
+	<data:bekendOp>2024-06-02</data:bekendOp>
+	<data:ontvangenOp>2024-06-02</data:ontvangenOp>
+	<data:procedurestappen>
+	  <data:Procedurestap>
+	    <data:soortStap>/join/id/stop/procedure/stap_002</data:soortStap>
+	    <data:voltooidOp>2019-12-04</data:voltooidOp>
+	  </data:Procedurestap>
+	  <data:Procedurestap>
+	    <data:soortStap>/join/id/stop/procedure/stap_003</data:soortStap>
+	    <data:voltooidOp>2019-12-07</data:voltooidOp>
+	  </data:Procedurestap>
+	  <data:Procedurestap>
+	    <data:soortStap>/join/id/stop/procedure/stap_004</data:soortStap>
+	    <data:voltooidOp>2024-06-02</data:voltooidOp>
+	  </data:Procedurestap>
+	</data:procedurestappen>
+      </data:Procedureverloop>
+      <data:BesluitMetadata xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">
+	<data:eindverantwoordelijke>/tooi/id/gemeente/gm0160</data:eindverantwoordelijke>
+	<data:informatieobjectRefs>
+	  <data:informatieobjectRef>/join/id/regdata/gm0160/2024/Noordereilanden2/nld@2024;2ontwerp</data:informatieobjectRef>
+	  <data:informatieobjectRef>/join/id/regdata/gm0160/2024/Schefferlaan/nld@2024;2ontwerp</data:informatieobjectRef>
+	  <data:informatieobjectRef>/join/id/regdata/gm0160/2024/Schefferlaan2/nld@2024;2ontwerp</data:informatieobjectRef>
+	</data:informatieobjectRefs>
+	<data:maker>/tooi/id/gemeente/gm0160</data:maker>
+	<data:officieleTitel>Hello DSO</data:officieleTitel>
+	<data:onderwerpen>
+	  <data:onderwerp>/tooi/def/concept/c_9d1917e9</data:onderwerp>
+	</data:onderwerpen>
+	<data:rechtsgebieden>
+	  <data:rechtsgebied>/tooi/def/concept/c_8ad05f6d</data:rechtsgebied>
+	</data:rechtsgebieden>
+	<data:soortProcedure>/join/id/stop/proceduretype_ontwerp</data:soortProcedure>
+	<data:soortBestuursorgaan>/tooi/def/thes/kern/c_2a7d8663</data:soortBestuursorgaan>
+      </data:BesluitMetadata>
+      <lvbbu:Proefversies><consolidatie:bekendOp xmlns:consolidatie="https://standaarden.overheid.nl/stop/imop/consolidatie/">2024-06-02</consolidatie:bekendOp><consolidatie:ontvangenOp xmlns:consolidatie="https://standaarden.overheid.nl/stop/imop/consolidatie/">2024-06-02</consolidatie:ontvangenOp><lvbbu:Proefversie><consolidatie:gerealiseerdeDoelen xmlns:consolidatie="https://standaarden.overheid.nl/stop/imop/consolidatie/">
+	    <consolidatie:doel>/join/id/proces/gm0160/2022/Omgevingsplan-HelloDSO</consolidatie:doel>
+	    <consolidatie:doel>/join/id/proces/gm0160/2022/HelloDSO-ontwerp</consolidatie:doel>
+	  </consolidatie:gerealiseerdeDoelen><consolidatie:instrumentVersie xmlns:consolidatie="https://standaarden.overheid.nl/stop/imop/consolidatie/">/akn/nl/act/gm0160/2023/Omgevingsplan-HelloDSO/nld@2;ontwerp</consolidatie:instrumentVersie></lvbbu:Proefversie></lvbbu:Proefversies>
+      <lvbbu:RegelingVersie schemaversie="1.2.0">
+	<data:ExpressionIdentificatie xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">
+	  <data:FRBRWork>/akn/nl/act/gm0160/2023/Omgevingsplan-HelloDSO</data:FRBRWork>
+	  <data:FRBRExpression>/akn/nl/act/gm0160/2023/Omgevingsplan-HelloDSO/nld@2;ontwerp</data:FRBRExpression>
+	  <data:soortWork>/join/id/stop/work_019</data:soortWork>
+	</data:ExpressionIdentificatie>
+	<data:RegelingVersieMetadata xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">
+	  <data:versienummer>1</data:versienummer>
+	</data:RegelingVersieMetadata>
+	<tekst:RegelingCompact xmlns:tekst="https://standaarden.overheid.nl/stop/imop/tekst/">
+	  <tekst:RegelingOpschrift eId="longTitle" wId="longTitle">
+	    <tekst:Al>Vaststelling van "Voorbeeldregels Hello DSO" van de gemeente Hello</tekst:Al>
+	  </tekst:RegelingOpschrift>
+	  <tekst:Lichaam eId="body" wId="body">
+	    <tekst:Hoofdstuk eId="chp_0" wId="gm0160_v1__chp_0">
+	      <tekst:Kop>
+		<tekst:Label>Hoofdstuk</tekst:Label>
+		<tekst:Nummer>0</tekst:Nummer>
+		<tekst:Opschrift>Over dit omgevingsplan</tekst:Opschrift>
+	      </tekst:Kop>
+	      <tekst:Artikel eId="chp_0__art_0.1" wId="gm0160_v1__chp_0__art_0.1">
+		<tekst:Kop>
+		  <tekst:Label>Artikel</tekst:Label>
+		  <tekst:Nummer>0.1</tekst:Nummer>
+		  <tekst:Opschrift>Toepassingsgebied</tekst:Opschrift>
+		</tekst:Kop>
+		<tekst:Inhoud>
+		  <tekst:Al><tekst:IntRef ref="cmp_I">Bijlage I</tekst:IntRef> bij dit omgevingsplan bevat begripsbepalingen voor de toepassing van dit omgevingsplan.</tekst:Al>
+		</tekst:Inhoud>
+	      </tekst:Artikel>
+	    </tekst:Hoofdstuk>
+	    <tekst:Hoofdstuk eId="chp_1" wId="gm0160_v1__chp_1">
+	      <tekst:Kop>
+		<tekst:Label><tekst:VerwijderdeTekst>HOOFDSTUK</tekst:VerwijderdeTekst><tekst:NieuweTekst>Hoofdstuk</tekst:NieuweTekst></tekst:Label>
+		<tekst:Nummer>1</tekst:Nummer>
+		<tekst:Opschrift><tekst:VerwijderdeTekst>ALGEMENE BEPALINGEN</tekst:VerwijderdeTekst><tekst:NieuweTekst>Algemene
+                                 bepalingen</tekst:NieuweTekst></tekst:Opschrift>
+	      </tekst:Kop>
+	      <tekst:Artikel eId="chp_1__art_1" wId="gm0160_v1__chp_1__art_1">
+		<tekst:Kop>
+		  <tekst:Label>Artikel</tekst:Label>
+		  <tekst:Nummer>1.1</tekst:Nummer>
+		  <tekst:Opschrift>Begripsbepalingen</tekst:Opschrift>
+		</tekst:Kop>
+		<tekst:Lid eId="chp_1__art_1__para_1" wId="gm0160_v1__chp_1__art_1__para_1">
+		  <tekst:LidNummer>1.</tekst:LidNummer>
+		  <tekst:Inhoud>
+		    <tekst:Al>Begripsbepalingen die, op de dag van de inwerkingtreding van de Omgevingswet, zijn
+                                         opgenomen in de bijlage bij de Omgevingswet en in bijlage I bij het Besluit activiteiten
+                                         leefomgeving, bijlage I bij het Besluit bouwwerken leefomgeving, bijlage I bij het
+                                         Besluit kwaliteit leefomgeving, bijlage I bij het Omgevingsbesluit en bijlage I bij de
+                                         Omgevingsregeling, zijn van toepassing op dit omgevingsplan.</tekst:Al>
+		  </tekst:Inhoud>
+		</tekst:Lid>
+		<tekst:Lid eId="chp_1__art_1.1__para_2" wId="gm0160_v1__chp_1__art_1.1__para_2">
+		  <tekst:LidNummer>2.</tekst:LidNummer>
+		  <tekst:Inhoud>
+		    <tekst:Al>Vanaf de datum van inwerkingtreding maakt <tekst:IntIoRef eId="chp_1_art_1.1__ref_1" ref="gm0160_v2__cmp_I__content_o_1__list_o_1__item_o_3__ref_o_1" wId="gm0160_v1__chp_1_art_1.1__ref_1"><tekst:VerwijderdeTekst>Noordereilanden</tekst:VerwijderdeTekst><tekst:NieuweTekst>Noorderburen</tekst:NieuweTekst></tekst:IntIoRef>
+                                         <tekst:NieuweTekst>(voorheen bekend als Noordereilanden) </tekst:NieuweTekst>deel uit van het
+                                         ambtsgebied.</tekst:Al>
+		  </tekst:Inhoud>
+		</tekst:Lid>
+		<tekst:Lid eId="chp_1__art_1.1__para_3" wId="gm0160_v1__chp_1__art_1.1__para_3">
+		  <tekst:LidNummer>3.</tekst:LidNummer>
+		  <tekst:Inhoud>
+		    <tekst:Al wijzigactie="verwijder">Tot de kustgebieden in dit omgevingsplan moeten worden
+                                         gerekend: <tekst:IntIoRef eId="chp_1_art_1.1__ref_2_inst2" ref="gm0160_v1__cmp_I__content_o_1__list_o_1__item_o_2__ref_o_1" wId="gm0160_v1__chp_1_art_1.1__ref_2_inst2">Zuiderburen</tekst:IntIoRef> en <tekst:IntIoRef eId="chp_1_art1.1__ref_3_inst2" ref="gm0160_v2__cmp_I__content_o_1__list_o_1__item_o_3__ref_o_1" wId="gm0160_v1__chp_1_art1.1__ref_3_inst2">Noordereilanden</tekst:IntIoRef></tekst:Al>
+		    <tekst:Al wijzigactie="voegtoe">Tot de stiltegebieden in dit omgevingsplan moeten worden
+                                         gerekend: <tekst:IntIoRef eId="chp_1_art_1.1__ref_2" ref="gm0160_v1__cmp_I__content_o_1__list_o_1__item_o_2__ref_o_1" wId="gm0160_v1__chp_1_art_1.1__ref_2">Zuiderburen</tekst:IntIoRef> (inclusief het zuidboveneiland) en <tekst:IntIoRef eId="chp_1__art_1.1__ref_3" ref="gm0160_v2__cmp_I__content_o_1__list_o_1__item_o_3__ref_o_1" wId="gm0160_v1__chp_1__art_1.1__ref_3">Noorderburen</tekst:IntIoRef> (voorheen bekend als Noordereilanden)</tekst:Al>
+		  </tekst:Inhoud>
+		</tekst:Lid>
+		<tekst:Lid eId="chp_1__art_1.1__para_4" wId="gm0160_v1__chp_1__art_1.1__para_4">
+		  <tekst:LidNummer>4.</tekst:LidNummer>
+		  <tekst:Inhoud>
+		    <tekst:Al>Het havengebied in dit omgevingsplan omvat de <tekst:IntIoRef eId="chp_1_art1.1__ref_4" ref="gm0160_v1__cmp_I__content_o_1__list_o_1__item_o_1__ref_o_1" wId="gm0160_v1__chp_1_art1.1__ref_4">Oostelijke
+                                         <tekst:VerwijderdeTekst>havens</tekst:VerwijderdeTekst><tekst:NieuweTekst>havenszijde</tekst:NieuweTekst></tekst:IntIoRef>.</tekst:Al>
+		  </tekst:Inhoud>
+		</tekst:Lid>
+	      </tekst:Artikel>
+	    </tekst:Hoofdstuk>
+	    <tekst:Hoofdstuk eId="chp_2" wId="gm0160_v1__chp_2">
+	      <tekst:Kop>
+		<tekst:Label>Hoofdstuk</tekst:Label>
+		<tekst:Nummer>2</tekst:Nummer>
+		<tekst:Opschrift>Horeca</tekst:Opschrift>
+	      </tekst:Kop>
+	      <tekst:Artikel eId="chp_2__art_2.1" wId="gm0160_v1__chp_2__art_2.1">
+		<tekst:Kop>
+		  <tekst:Label>Artikel</tekst:Label>
+		  <tekst:Nummer>2.1</tekst:Nummer>
+		  <tekst:Opschrift>Regels voor horeca</tekst:Opschrift>
+		</tekst:Kop>
+		<tekst:Inhoud>
+		  <tekst:Al>Het starten van een horecabedrijf is toegestaan in <tekst:VerwijderdeTekst>het
+                                     horecagebied</tekst:VerwijderdeTekst><tekst:NieuweTekst><tekst:IntIoRef eId="chp_2_art001__ref_1" ref="gm0160_v1__cmp_I__content_o_1__list_o_1__item_o_1__ref_o_1" wId="gm0160_v1__chp_2_art001__ref_1">Binnenstad West</tekst:IntIoRef></tekst:NieuweTekst>, mits er voldoende
+                                     parkeergelegenheid aanwezig is en er een vergunning is verleend.</tekst:Al>
+		</tekst:Inhoud>
+	      </tekst:Artikel>
+	      <tekst:Artikel eId="chp_2__art_2.2" wId="gm0160_v1__chp_2__art_2.2">
+		<tekst:Kop>
+		  <tekst:Label>Artikel</tekst:Label>
+		  <tekst:Nummer>2.2</tekst:Nummer>
+		  <tekst:Opschrift>In het openbaar nuttigen van alcohol</tekst:Opschrift>
+		  <tekst:Subtitel>Het nuttigen van alcohol in het openbaar buiten de
+                                     horecagebouwen</tekst:Subtitel>
+		</tekst:Kop>
+		<tekst:Inhoud>
+		  <tekst:Al>Het is niet toegestaan om tussen 20:00u en 04:00u de daaropvolgende dag, in
+                                     het openbaar alcohol te nuttigen buiten of in de directe omgeving van de
+                                     horecagebouwen die zijn gevestigd in de <tekst:IntIoRef eId="chp_2_art002__ref_1" ref="gm0160_v1__cmp_I__content_o_1__list_o_1__item_o_1__ref_o_1" wId="gm0160_v1__chp_2_art002__ref_1">Binnenstad West</tekst:IntIoRef>.</tekst:Al>
+		</tekst:Inhoud>
+	      </tekst:Artikel>
+	    </tekst:Hoofdstuk>
+	    <tekst:Hoofdstuk eId="chp_3" wId="gm0160_v1__chp_3">
+	      <tekst:Kop>
+		<tekst:Label>Hoofdstuk</tekst:Label>
+		<tekst:Nummer>3</tekst:Nummer>
+		<tekst:Opschrift>Consumentenvuurwerk</tekst:Opschrift>
+	      </tekst:Kop>
+	      <tekst:Artikel eId="chp_3__art_3.1" wId="gm0160_v1__chp_3__art_3.1">
+		<tekst:Kop>
+		  <tekst:Label>Artikel</tekst:Label>
+		  <tekst:Nummer>3.1</tekst:Nummer>
+		  <tekst:Opschrift>Regels voor het gebruik van consumentenvuurwerk</tekst:Opschrift>
+		</tekst:Kop>
+		<tekst:Inhoud>
+		  <tekst:Al>Het is verboden consumentenvuurwerk te gebruiken in <tekst:IntIoRef eId="chp_3__art_3.1__ref_1" ref="gm0160_v1__cmp_I__content_o_1__list_o_1__item_o_1__ref_o_1" wId="gm0160_v1__chp_3__art_3.1__ref_1">Binnenstad West</tekst:IntIoRef>, tijdens de jaarwisseling omdat dit gevaar,
+                                     schade en overlast veroorzaakt.</tekst:Al>
+		  <tekst:Al wijzigactie="voegtoe">In het gebied <tekst:IntIoRef eId="chp_3__art_3.1__ref_2" ref="gm0160_v2__cmp_I__content_o_1__list_o_1__item_o_3__ref_o_1" wId="gm0160_v1__chp_3__art_3.1__ref_2">Noordereilanden</tekst:IntIoRef> geldt een algeheel verbod om vuurwerk te
+                                     gebruiken.</tekst:Al>
+		</tekst:Inhoud>
+	      </tekst:Artikel>
+	      <tekst:Artikel eId="chp_3__art_3.2" wId="gm0160_v1__chp_3__art_3.2">
+		<tekst:Kop>
+		  <tekst:Label>Artikel</tekst:Label>
+		  <tekst:Nummer>3.2</tekst:Nummer>
+		  <tekst:Opschrift><tekst:VerwijderdeTekst>Regels voor het gebruik van
+                                     carbidschieten</tekst:VerwijderdeTekst><tekst:NieuweTekst>In het openbaar nuttigen van
+                                         alcohol</tekst:NieuweTekst></tekst:Opschrift>
+		  <tekst:Subtitel wijzigactie="voegtoe">Het nuttigen van alcohol in het openbaar buiten de
+                                     horecagebouwen</tekst:Subtitel>
+		</tekst:Kop>
+		<tekst:Inhoud>
+		  <tekst:Al wijzigactie="verwijder">Op 31 december van het jaar en tot 1 uur na de jaarwisseling is
+                                     carbidschieten toegestaan in het gebied <tekst:IntIoRef eId="chp_3_art002__ref_1_inst2" ref="gm0160_v1__cmp_I__content_o_1__list_o_1__item_o_2__ref_o_1" wId="gm0160_v1__chp_3_art002__ref_1_inst2">Zuiderburen</tekst:IntIoRef>,
+                                     indien daarvoor vergunning is verleend.</tekst:Al>
+		  <tekst:Al wijzigactie="voegtoe">Het is niet toegestaan om tussen 20:00u en 04:00u de
+                                     daaropvolgende dag, in het openbaar alcohol te nuttigen buiten of in de directe omgeving
+                                     van de horecagebouwen die zijn gevestigd in de <tekst:IntIoRef eId="chp_2_art3.2__ref_1" ref="gm0160_v1__cmp_I__content_o_1__list_o_1__item_o_1__ref_o_1" wId="gm0160_v1__chp_2_art3.2__ref_1">Binnenstad
+                                         West</tekst:IntIoRef>.</tekst:Al>
+		</tekst:Inhoud>
+	      </tekst:Artikel>
+	    </tekst:Hoofdstuk>
+	    <tekst:Hoofdstuk eId="chp_4" wId="gm0160_v1__chp_4">
+	      <tekst:Kop>
+		<tekst:Label>Hoofdstuk</tekst:Label>
+		<tekst:Nummer>4</tekst:Nummer>
+		<tekst:Opschrift>Bouwen</tekst:Opschrift>
+	      </tekst:Kop>
+	      <tekst:Artikel eId="chp_4__art_4.1" wId="gm0160_v1__chp_4__art_4.1">
+		<tekst:Kop>
+		  <tekst:Label>Artikel</tekst:Label>
+		  <tekst:Nummer>4.1</tekst:Nummer>
+		  <tekst:Opschrift>Regels voor de maximale bouwhoogte</tekst:Opschrift>
+		</tekst:Kop>
+		<tekst:Inhoud>
+		  <tekst:Al>De bouwhoogte van een woning is niet hoger dan de ter plaatse van de locatie ‘maximum bouwhoogte’ bepaalde waarde.</tekst:Al>
+		</tekst:Inhoud>
+	      </tekst:Artikel>
+	    </tekst:Hoofdstuk>
+	    <tekst:Hoofdstuk eId="chp_5" wId="gm0160_v1__chp_5">
+	      <tekst:Kop>
+		<tekst:Label>Hoofdstuk</tekst:Label>
+		<tekst:Nummer>5</tekst:Nummer>
+		<tekst:Opschrift>Recreactie</tekst:Opschrift>
+	      </tekst:Kop>
+	      <tekst:Artikel eId="chp_5__art_5.1" wId="gm0160_v1__chp_5__art_5.1">
+		<tekst:Kop>
+		  <tekst:Label>Artikel</tekst:Label>
+		  <tekst:Nummer>5.1</tekst:Nummer>
+		  <tekst:Opschrift>Regels voor buitenactiviteiten</tekst:Opschrift>
+		</tekst:Kop>
+		<tekst:Inhoud>
+		  <tekst:Al>Het is verboden om buiten te
+                                     <tekst:VerwijderdeTekst>zwemmenin</tekst:VerwijderdeTekst><tekst:NieuweTekst>zwemmen en te sportvissen
+                                         in</tekst:NieuweTekst> meren en plassen waar dit niet expliciet via een bord is
+                                     toegestaan.</tekst:Al>
+		</tekst:Inhoud>
+	      </tekst:Artikel>
+	    </tekst:Hoofdstuk>
+	    <tekst:Hoofdstuk eId="chp_6" wId="gm0160_v1__chp_6">
+	      <tekst:Kop>
+		<tekst:Label>Hoofdstuk</tekst:Label>
+		<tekst:Nummer>6</tekst:Nummer>
+		<tekst:Opschrift>Aanwijzing en geometrische begrenzing van locaties (Django-schetsen)</tekst:Opschrift>
+	      </tekst:Kop>
+	      <tekst:Afdeling eId="chp_6__subchp_2.2" wId="gm0160_v1__chp_6__subchp_2.2">
+		<tekst:Kop>
+		  <tekst:Label>Afdeling</tekst:Label>
+		  <tekst:Nummer>2.2</tekst:Nummer>
+		  <tekst:Opschrift>Water</tekst:Opschrift>
+		</tekst:Kop>
+		<tekst:Paragraaf eId="chp_6__subchp_2.2__subsec_2.2.1" wId="gm0160_v1__chp_6__subchp_2.2__subsec_2.2.1">
+		  <tekst:Kop>
+		    <tekst:Nummer>2.2.1</tekst:Nummer>
+		    <tekst:Opschrift>Rijkswateren</tekst:Opschrift>
+		  </tekst:Kop>
+		  <tekst:Artikel eId="chp_6__subchp_2.2__subsec_2.2.1__art_2.1" wId="gm0160_v1__chp_6__subchp_2.2__subsec_2.2.1__art_2.1">
+		    <tekst:Kop>
+		      <tekst:Label>Artikel</tekst:Label>
+		      <tekst:Nummer>2.1</tekst:Nummer>
+		      <tekst:Opschrift>Activiteiten in ontwerp</tekst:Opschrift>
+		    </tekst:Kop>
+		    <tekst:Inhoud>
+		      <tekst:Al>Dit zou er als volgt uit moeten zien: <tekst:InlineTekstAfbeelding breedte="1440" dpi="75" formaat="image/png" hoogte="1075" naam="ontwerpActiviteitenRenvooi.png"/></tekst:Al>
+		    </tekst:Inhoud>
+		  </tekst:Artikel>
+		  <tekst:Artikel eId="chp_6__subchp_2.2__subsec_2.2.1__art_2.2" wId="gm0160_v1__chp_6__subchp_2.2__subsec_2.2.1__art_2.2">
+		    <tekst:Kop>
+		      <tekst:Label>Artikel</tekst:Label>
+		      <tekst:Nummer>2.2</tekst:Nummer>
+		      <tekst:Opschrift>Gebiedsaanwijzingen in ontwerp</tekst:Opschrift>
+		    </tekst:Kop>
+		    <tekst:Inhoud>
+		      <tekst:Al>Dit zou er als volgt uit moeten zien: <tekst:InlineTekstAfbeelding breedte="1440" dpi="75" formaat="image/png" hoogte="1075" naam="ontwerpGebiedsaanwijzingRenvooi.png"/></tekst:Al>
+		    </tekst:Inhoud>
+		  </tekst:Artikel>
+		  <tekst:Artikel eId="chp_6__subchp_2.2__subsec_2.2.1__art_2.3" wId="gm0160_v1__chp_6__subchp_2.2__subsec_2.2.1__art_2.3">
+		    <tekst:Kop>
+		      <tekst:Label>Artikel</tekst:Label>
+		      <tekst:Nummer>2.3</tekst:Nummer>
+		      <tekst:Opschrift>Locaties in ontwerp</tekst:Opschrift>
+		    </tekst:Kop>
+		    <tekst:Inhoud>
+		      <tekst:Al>Dit zou er als volgt uit moeten zien: <tekst:InlineTekstAfbeelding breedte="1440" dpi="75" formaat="image/png" hoogte="1075" naam="ontwerpLocatiesRenvooi.png"/></tekst:Al>
+		    </tekst:Inhoud>
+		  </tekst:Artikel>
+		  <tekst:Artikel eId="chp_6__subchp_2.2__subsec_2.2.1__art_2.4" wId="gm0160_v1__chp_6__subchp_2.2__subsec_2.2.1__art_2.4">
+		    <tekst:Kop>
+		      <tekst:Label>Artikel</tekst:Label>
+		      <tekst:Nummer>2.4</tekst:Nummer>
+		      <tekst:Opschrift>Omgevingsnormen in ontwerp</tekst:Opschrift>
+		    </tekst:Kop>
+		    <tekst:Inhoud>
+		      <tekst:Al>Dit zou er als volgt uit moeten zien: <tekst:InlineTekstAfbeelding breedte="1440" dpi="75" formaat="image/png" hoogte="1075" naam="ontwerpOmgevingsnormenRenvooi.png"/></tekst:Al>
+		    </tekst:Inhoud>
+		  </tekst:Artikel>
+		  <tekst:Artikel eId="chp_6__subchp_2.2__subsec_2.2.1__art_2.5" wId="gm0160_v1__chp_6__subchp_2.2__subsec_2.2.1__art_2.5">
+		    <tekst:Kop>
+		      <tekst:Label>Artikel</tekst:Label>
+		      <tekst:Nummer>2.5</tekst:Nummer>
+		      <tekst:Opschrift>Omgevingswaarden in ontwerp</tekst:Opschrift>
+		    </tekst:Kop>
+		    <tekst:Inhoud>
+		      <tekst:Al>Dit zou er als volgt uit moeten zien: <tekst:InlineTekstAfbeelding breedte="1440" dpi="75" formaat="image/png" hoogte="1075" naam="ontwerpOmgevingswaardenRenvooi.png"/></tekst:Al>
+		    </tekst:Inhoud>
+		  </tekst:Artikel>
+		</tekst:Paragraaf>
+	      </tekst:Afdeling>
+	    </tekst:Hoofdstuk>
+	    <tekst:Hoofdstuk eId="chp_7" wId="gm0160_v1__chp_7">
+	      <tekst:Kop>
+		<tekst:Label>Hoofdstuk</tekst:Label>
+		<tekst:Nummer>7</tekst:Nummer>
+		<tekst:Opschrift>Overige Ozontests</tekst:Opschrift>
+	      </tekst:Kop>
+	      <tekst:Artikel eId="chp_7__art_7.1" wId="gm0160_v1__chp_7__art_7.1">
+		<tekst:Kop>
+		  <tekst:Label>Artikel</tekst:Label>
+		  <tekst:Nummer>7.1</tekst:Nummer>
+		  <tekst:Opschrift>Thema's</tekst:Opschrift>
+		</tekst:Kop>
+		<tekst:Inhoud>
+		  <tekst:Al>Thema-ontwerprenvooi <tekst:NieuweTekst>geen Natuur, maar Lucht</tekst:NieuweTekst>.</tekst:Al>
+		</tekst:Inhoud>
+	      </tekst:Artikel>
+	      <tekst:Artikel eId="chp_7__art_7.2" wId="gm0160_v1__chp_7__art_7.2">
+		<tekst:Kop>
+		  <tekst:Label>Artikel</tekst:Label>
+		  <tekst:Nummer>7.2</tekst:Nummer>
+		  <tekst:Opschrift>Omgevingsnorm waarde in regeltekst</tekst:Opschrift>
+		</tekst:Kop>
+		<tekst:Inhoud>
+		  <tekst:Al>Waarde in regeltekst<tekst:NieuweTekst>, nu indicatief</tekst:NieuweTekst>.</tekst:Al>
+		</tekst:Inhoud>
+	      </tekst:Artikel>
+	      <tekst:Artikel eId="chp_7__art_7.3" wId="gm0160_v1__chp_7__art_7.3">
+		<tekst:Kop>
+		  <tekst:Label>Artikel</tekst:Label>
+		  <tekst:Nummer>7.3</tekst:Nummer>
+		  <tekst:Opschrift>kwalitatieve norm</tekst:Opschrift>
+		</tekst:Kop>
+		<tekst:Inhoud>
+		  <tekst:Al>kwalitatieve norm <tekst:NieuweTekst>nu heel erg mooi</tekst:NieuweTekst></tekst:Al>
+		</tekst:Inhoud>
+	      </tekst:Artikel>
+	    </tekst:Hoofdstuk>
+	  </tekst:Lichaam>
+	  <tekst:Bijlage eId="cmp_I" wId="gm0160_1__cmp_I">
+	    <tekst:Kop>
+	      <tekst:Label>Bijlage</tekst:Label>
+	      <tekst:Nummer>I</tekst:Nummer>
+	      <tekst:Opschrift>Overzicht Informatieobjecten</tekst:Opschrift>
+	    </tekst:Kop>
+	    <tekst:Divisietekst eId="cmp_I__content_o_1" wId="gm0160_1__cmp_I__content_o_1">
+	      <tekst:Inhoud>
+		<tekst:Begrippenlijst eId="cmp_I__content_o_1__list_o_1" wId="gm0160_v1__cmp_I__content_o_1__list_o_1">
+		  <tekst:Begrip eId="cmp_I__content_o_1__list_o_1__item_o_1" wId="gm0160_v1__cmp_I__content_o_1__list_o_1__item_o_1">
+		    <tekst:Term>Binnenstad West</tekst:Term>
+		    <tekst:Definitie>
+		      <tekst:Al><tekst:ExtIoRef eId="cmp_I__content_o_1__list_o_1__item_o_1__ref_o_1" ref="/join/id/regdata/gm0160/2024/BinnenstadCentrumWest2/nld@2024;1" wId="gm0160_v1__cmp_I__content_o_1__list_o_1__item_o_1__ref_o_1">/join/id/regdata/gm0160/2024/BinnenstadCentrumWest2/nld@2024;1</tekst:ExtIoRef></tekst:Al>
+		    </tekst:Definitie>
+		  </tekst:Begrip>
+		  <tekst:Begrip eId="cmp_I__content_o_1__list_o_1__item_o_2" wId="gm0160_v1__cmp_I__content_o_1__list_o_1__item_o_2">
+		    <tekst:Term>Zuiderburen</tekst:Term>
+		    <tekst:Definitie>
+		      <tekst:Al><tekst:ExtIoRef eId="cmp_I__content_o_1__list_o_1__item_o_2__ref_o_1" ref="/join/id/regdata/gm0160/2024/Zuiderburen2/nld@2024;1" wId="gm0160_v1__cmp_I__content_o_1__list_o_1__item_o_2__ref_o_1">/join/id/regdata/gm0160/2024/Zuiderburen2/nld@2024;1</tekst:ExtIoRef></tekst:Al>
+		    </tekst:Definitie>
+		  </tekst:Begrip>
+		  <!--Term EN Definitie zijn teveel veranderd.-->
+		  <tekst:Begrip eId="cmp_I__content_o_1__list_o_1__item_o_3" wId="gm0160_v1__cmp_I__content_o_1__list_o_1__item_o_3" wijzigactie="verwijder">
+		    <tekst:Term>Noordereilanden</tekst:Term>
+		    <tekst:Definitie>
+		      <tekst:Al><tekst:ExtIoRef eId="cmp_I__content_o_1__list_o_1__item_o_3__ref_o_1" ref="/join/id/regdata/gm0160/2024/Noordereilanden2/nld@2024;1" wId="gm0160_v1__cmp_I__content_o_1__list_o_1__item_o_3__ref_o_1">/join/id/regdata/gm0160/2024/Noordereilanden2/nld@2024;1</tekst:ExtIoRef></tekst:Al>
+		    </tekst:Definitie>
+		  </tekst:Begrip>
+		  <tekst:Begrip eId="cmp_I__content_o_1__list_o_1__item_o_3" wId="gm0160_v2__cmp_I__content_o_1__list_o_1__item_o_3" wijzigactie="voegtoe">
+		    <tekst:Term>Noorderburen</tekst:Term>
+		    <tekst:Definitie>
+		      <tekst:Al><tekst:ExtIoRef eId="cmp_I__content_o_1__list_o_1__item_o_3__ref_o_1" ref="/join/id/regdata/gm0160/2024/Noordereilanden2/nld@2024;2ontwerp" wId="gm0160_v2__cmp_I__content_o_1__list_o_1__item_o_3__ref_o_1">/join/id/regdata/gm0160/2024/Noordereilanden2/nld@2024;2ontwerp</tekst:ExtIoRef></tekst:Al>
+		    </tekst:Definitie>
+		  </tekst:Begrip>
+		  <tekst:Begrip eId="cmp_I__content_o_1__list_o_1__item_o_4" wId="gm0160_v1__cmp_I__content_o_1__list_o_1__item_o_4">
+		    <tekst:Term>Oostelijke havens</tekst:Term>
+		    <tekst:Definitie>
+		      <tekst:Al><tekst:ExtIoRef eId="cmp_I__content_o_1__list_o_1__item_o_4__ref_o_1" ref="/join/id/regdata/gm0160/2024/OostelijkeHavens2/nld@2024;1" wId="gm0160_v1__cmp_I__content_o_1__list_o_1__item_o_4__ref_o_1">/join/id/regdata/gm0160/2024/OostelijkeHavens2/nld@2024;1</tekst:ExtIoRef></tekst:Al>
+		    </tekst:Definitie>
+		  </tekst:Begrip>
+		  <tekst:Begrip eId="cmp_I__content_o_1__list_o_1__item_o_5" wId="gm0160_v1__cmp_I__content_o_1__list_o_1__item_o_5">
+		    <tekst:Term>Schefferlaan</tekst:Term>
+		    <tekst:Definitie>
+		      <tekst:Al><tekst:ExtIoRef eId="cmp_I__content_o_1__list_o_1__item_o_5__ref_o_1" ref="/join/id/regdata/gm0160/2024/Schefferlaan/nld@2024;2ontwerp" wId="gm0160_v1__cmp_I__content_o_1__list_o_1__item_o_5__ref_o_1">/join/id/regdata/gm0160/2024/Schefferlaan/nld@2024;2ontwerp</tekst:ExtIoRef></tekst:Al>
+		    </tekst:Definitie>
+		  </tekst:Begrip>
+		  <tekst:Begrip eId="cmp_I__content_o_1__list_o_1__item_o_6" wId="gm0160_v1__cmp_I__content_o_1__list_o_1__item_o_6">
+		    <tekst:Term>Schefferlaan</tekst:Term>
+		    <tekst:Definitie>
+		      <tekst:Al><tekst:ExtIoRef eId="cmp_I__content_o_1__list_o_1__item_o_6__ref_o_1" ref="/join/id/regdata/gm0160/2024/Schefferlaan2/nld@2024;2ontwerp" wId="gm0160_v1__cmp_I__content_o_1__list_o_1__item_o_6__ref_o_1">/join/id/regdata/gm0160/2024/Schefferlaan2/nld@2024;2ontwerp</tekst:ExtIoRef></tekst:Al>
+		    </tekst:Definitie>
+		  </tekst:Begrip>
+		</tekst:Begrippenlijst>
+	      </tekst:Inhoud>
+	    </tekst:Divisietekst>
+	  </tekst:Bijlage>
+	</tekst:RegelingCompact>
+      </lvbbu:RegelingVersie>
+      <lvbbu:AnnotatieBijProefversie>
+	<data:ExpressionIdentificatie xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">
+	  <data:FRBRWork>/akn/nl/act/gm0160/2023/Omgevingsplan-HelloDSO</data:FRBRWork>
+	  <data:FRBRExpression>/akn/nl/act/gm0160/2023/Omgevingsplan-HelloDSO/nld@2;ontwerp</data:FRBRExpression>
+	  <data:soortWork>/join/id/stop/work_019</data:soortWork>
+	</data:ExpressionIdentificatie>
+	<data:RegelingMetadata xmlns:data="https://standaarden.overheid.nl/stop/imop/data/">
+	  <data:heeftCiteertitelInformatie>
+	    <data:CiteertitelInformatie>
+	      <data:citeertitel>Hello DSO</data:citeertitel>
+	      <data:isOfficieel>true</data:isOfficieel>
+	    </data:CiteertitelInformatie>
+	  </data:heeftCiteertitelInformatie>
+	  <data:eindverantwoordelijke>/tooi/id/gemeente/gm0160</data:eindverantwoordelijke>
+	  <data:maker>/tooi/id/gemeente/gm0160</data:maker>
+	  <data:officieleTitel>Hello DSO</data:officieleTitel>
+	  <data:onderwerpen>
+	    <data:onderwerp>/tooi/def/concept/c_9d1917e9</data:onderwerp>
+	  </data:onderwerpen>
+	  <data:rechtsgebieden>
+	    <data:rechtsgebied>/tooi/def/concept/c_8ad05f6d</data:rechtsgebied>
+	  </data:rechtsgebieden>
+	  <data:soortRegeling>/join/id/stop/regelingtype_003</data:soortRegeling>
+	  <data:soortBestuursorgaan>/tooi/def/thes/kern/c_2a7d8663</data:soortBestuursorgaan>
+	</data:RegelingMetadata>
+      </lvbbu:AnnotatieBijProefversie>
+    </lvbbu:UitleveringProefversieBesluit>

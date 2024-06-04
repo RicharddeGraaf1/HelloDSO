@@ -211,7 +211,7 @@
                   <r:RegeltekstRef xlink:href="nl.imow-gm0160.regeltekst.gm0160v1chp4art41"/>
                </r:artikelOfLid>
                <r:locatieaanduiding>
-                  <l:LocatieRef xlink:href="nl.imow-gm0160.ambtsgebied.9999999999"/>
+                  <l:LocatieRef xlink:href="nl.imow-gm0160.ambtsgebied.9999999998"/>
                </r:locatieaanduiding>
                <r:omgevingsnormaanduiding>
                   <rol:OmgevingsnormRef xlink:href="nl.imow-gm0160.omgevingsnorm.Bouwhoogte"/>
@@ -231,7 +231,7 @@
                   <r:RegeltekstRef xlink:href="nl.imow-gm0160.regeltekst.gm0160v1chp5art51"/>
                </r:artikelOfLid>
                <r:locatieaanduiding>
-                  <l:LocatieRef xlink:href="nl.imow-gm0160.ambtsgebied.9999999999"/>
+                  <l:LocatieRef xlink:href="nl.imow-gm0160.ambtsgebied.9999999998"/>
                </r:locatieaanduiding>
                <r:activiteitaanduiding>
                   <rol:ActiviteitRef xlink:href="nl.imow-gm0160.activiteit.sportvissen"/>
@@ -250,7 +250,7 @@
                      <r:identificatie>nl.imow-gm0160.activiteitlocatieaanduiding.buitenzwemmen</r:identificatie>
                      <r:activiteitregelkwalificatie>http://standaarden.omgevingswet.overheid.nl/activiteitregelkwalificatie/id/concept/AndersGeduid</r:activiteitregelkwalificatie>
                      <r:locatieaanduiding>
-                        <l:LocatieRef xlink:href="nl.imow-gm0160.ambtsgebied.9999999999"/>
+                        <l:LocatieRef xlink:href="nl.imow-gm0160.ambtsgebied.9999999998"/>
                      </r:locatieaanduiding>
                   </r:ActiviteitLocatieaanduiding>
                </r:activiteitaanduiding>

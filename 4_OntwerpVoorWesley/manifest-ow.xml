@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Aanleveringen xmlns="http://www.geostandaarden.nl/bestanden-ow/manifest-ow">
+    <domein >omgevingswet</domein>
+    <Aanlevering>
+        <WorkIDRegeling>/akn/nl/act/gm0160/2023/Omgevingsplan-HelloDSO</WorkIDRegeling>
+        <DoelID>/join/id/proces/gm0160/2022/HelloDSO-ontwerp2</DoelID>
+        <Bestand>
+            <naam>owActiviteiten.xml</naam>
+            <objecttype>Activiteit</objecttype>
+        </Bestand>
+        <Bestand>
+            <naam>owGebiedsaanwijzing.xml</naam>
+            <objecttype>Gebiedsaanwijzing</objecttype>
+        </Bestand>
+        <Bestand>
+            <naam>owLocaties.xml</naam>
+            <objecttype>Gebiedengroep</objecttype>
+            <objecttype>Gebied</objecttype>
+            <objecttype>Ambtsgebied</objecttype>
+        </Bestand>
+        <Bestand>
+            <naam>owOmgevingsnorm.xml</naam>
+            <objecttype>Omgevingsnorm</objecttype>
+            <objecttype>Omgevingswaarde</objecttype>
+        </Bestand>
+        <Bestand>
+            <naam>owRegeltekst.xml</naam>
+            <objecttype>Regeltekst</objecttype>
+            <objecttype>RegelVoorIedereen</objecttype>
+            <objecttype>Instructieregel</objecttype>
+            <objecttype>Omgevingswaarderegel</objecttype>
+        </Bestand>
+    </Aanlevering>
+</Aanleveringen>
